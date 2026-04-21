@@ -1,0 +1,3917 @@
+[
+  {
+    "id": 1,
+    "question": "Trường khóa chính là trường:",
+    "choices": [
+      "A. Single Key",
+      "B. Unique Key",
+      "C. First Key",
+      "D. Primary Key"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 2,
+    "question": "Câu nào trong các câu dưới đây sai khi nói về hệ CSDL khách-chủ?",
+    "choices": [
+      "A. Trong kiến trúc khách-chủ, các thành phần (của hệ QTCSDL) tương tác với nhau tạo nên hệ thống gồm thành phần yêu cầu tài nguyên và thành phần cấp tài nguyên",
+      "B. Hai thành phần yêu cầu tài nguyên và thành phần cấp tài nguyên phải cài đặt trên cùng một máy tính",
+      "C. Thành phần cấp tài nguyên thường được cài đặt tại một máy chủ trên mạng (cục bộ)",
+      "D. Thành phần yêu cầu tài nguyên có thể cài đặt tại nhiều máy khác (máy khách) trên mạng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 3,
+    "question": "Hãy chọn phương án đúng. Hai bảng trong một CSDL quan hệ liên kết với nhau thông qua:",
+    "choices": [
+      "A. Địa chỉ của các bảng",
+      "B. Tên trường",
+      "C. Thuộc tính của các trường được chọn (không nhất thiết phải là khóa)",
+      "D. Thuộc tính khóa"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 4,
+    "question": "Câu nào trong các câu dưới đây sai khi nói về hệ CSDL cá nhân?",
+    "choices": [
+      "A. Người dùng đóng vai trò là người quản trị CSDL",
+      "B. Tính an toàn của hệ CSDL cá nhân rất cao",
+      "C. Hệ CSDL cá nhân được lưu trữ trên 1 máy",
+      "D. Hệ CSDL chỉ cho phép 1 người dùng tại một thời điểm"
+    ],
+    "correct_answer": -1
+  },
+  {
+    "id": 5,
+    "question": "Tiêu chí nào sau đây thường được dùng để chọn khóa chính?",
+    "choices": [
+      "A. Khóa có ít thuộc tính nhất",
+      "B. Không chứa các thuộc tính thay đổi theo thời gian",
+      "C. Khóa bất kì",
+      "D. Chỉ là khóa có một thuộc tính"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 6,
+    "question": "Thế nào là cơ sở dữ liệu quan hệ?",
+    "choices": [
+      "A. Cơ sở dữ liệu được xây dựng dựa trên mô hình dữ liệu quan hệ",
+      "B. Cơ sở dữ liệu dùng để tạo lập, cập nhật và khai thác CSDL quan hệ",
+      "C. Cơ sở dữ liệu được xây dựng dựa trên mô hình dữ liệu quan hệ và khai thác CSDL quan hệ",
+      "D. Cơ sở dữ liệu dùng để tạo lập, cập nhật và khai thác CSDL quan hệ dựa trên mô hình dữ liệu quan hệ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 7,
+    "question": "Liên kết giữa các bảng được dựa trên:",
+    "choices": [
+      "A. Thuộc tính khóa",
+      "B. Các thuộc tính trùng tên nhau giữa các bảng",
+      "C. Ý định của người quản trị hệ CSDL",
+      "D. Ý định ghép các bảng thành một bảng có nhiều thuộc tính hơn"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 8,
+    "question": "Câu nào sai trong các câu dưới đây khi nói về ưu điểm của hệ CSDL khách-chủ?",
+    "choices": [
+      "A. Chi phí cho truyền thông giảm",
+      "B. Bổ sung thêm máy khách là dễ dàng",
+      "C. Phát triển và sử dụng các hệ CSDL khách-chủ khá đơn giản, dễ dàng",
+      "D. Nâng cao khả năng đảm bảo tính nhất quán của dữ liệu"
+    ],
+    "correct_answer": -1
+  },
+  {
+    "id": 9,
+    "question": "Khẳng định nào sau đây về CSDL quan hệ là đúng?",
+    "choices": [
+      "A. Tập hợp các bảng dữ liệu",
+      "B. Cơ sở dữ liệu được tạo ra từ hệ QTCSDL Access",
+      "C. Cơ sở dữ liệu mà giữa các dữ liệu có quan hệ với nhau",
+      "D. Cơ sở dữ liệu được xây dựng trên mô hình dữ liệu quan hệ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 10,
+    "question": "Câu nào sai trong các câu dưới đây?",
+    "choices": [
+      "A. Mỗi bảng có ít nhất một khóa",
+      "B. Nên chọn khóa chính là khóa có ít thuộc tính nhất",
+      "C. Trong một bảng có thể có nhiều khóa chính",
+      "D. Việc xác định khóa phụ thuộc vào quan hệ logic của các dữ liệu chứ không phụ thuộc vào giá trị các dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 11,
+    "question": "Trong quá trình cập nhật dữ liệu, được hệ quản trị CSDL kiểm soát để đảm bảo tính chất nào?",
+    "choices": [
+      "A. Tính chất ràng buộc toàn vẹn",
+      "B. Tính độc lập",
+      "C. Tính nhất quán",
+      "D. Tính bảo mật"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 12,
+    "question": "Hãy cho biết ý kiến nào là đúng. Với một bảng dữ liệu, hệ QTCSDL cho phép:",
+    "choices": [
+      "A. Xem nội dung các bản ghi",
+      "B. Xem mối liên kết giữa bảng đó với các bảng khác",
+      "C. Xem một số trường của mỗi bản ghi",
+      "D. Tất cả đều đúng"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 13,
+    "question": "Câu nào trong các câu dưới đây sai khi nói về hệ CSDL trung tâm?",
+    "choices": [
+      "A. Là hệ CSDL được cài đặt trên máy tính trung tâm cho phép nhiều người sử dụng cùng một lúc",
+      "B. Máy tính trung tâm này chỉ là một máy tính duy nhất",
+      "C. Nhiều người dùng từ xa có thể truy cập vào CSDL này thông qua thiết bị đầu cuối và các phương tiện truyền thông",
+      "D. Các hệ CSDL trung tâm thường rất lớn và có nhiều người dùng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 14,
+    "question": "Trong các ưu điểm dưới đây, ưu điểm nào không phải của các hệ CSDL phân tán?",
+    "choices": [
+      "A. Dữ liệu có tính sẵn sàng",
+      "B. Dữ liệu được chia sẻ trên mạng nhưng vẫn cho phép quản trị dữ liệu địa phương",
+      "C. Việc thiết kế CSDL đơn giản, chi phí thấp hơn",
+      "D. Dữ liệu có tính tin cậy cao"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 15,
+    "question": "Câu nào sai trong các câu dưới đây khi nói về ưu điểm của hệ CSDL khách-chủ?",
+    "choices": [
+      "A. Khả năng truy cập rộng rãi đến các CSDL",
+      "B. Phát triển và sử dụng các hệ CSDL khách-chủ khá đơn giản, dễ dàng",
+      "C. Nâng cao khả năng thực hiện",
+      "D. Chi phí cho phần cứng có thể giảm"
+    ],
+    "correct_answer": -1
+  },
+  {
+    "id": 16,
+    "question": "Trong các phần mềm sau đây, phần mềm nào không phải là hệ quản trị CSDL quan hệ?",
+    "choices": [
+      "A. Microsoft Excel",
+      "B. Microsoft Access",
+      "C. Microsoft SQL server",
+      "D. Oracle"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 17,
+    "question": "Đâu không phải là các bước xây dựng cơ sở dữ liệu?",
+    "choices": [
+      "A. Thiết kế",
+      "B. Khảo sát",
+      "C. Chạy thử",
+      "D. Ký hợp đồng"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 18,
+    "question": "Hãy chọn phương án trả lời đúng. Có các câu trả lời sau cho câu hỏi : \"Tại sao phải khai báo kích thước cho mỗi trường?\"",
+    "choices": [
+      "A. Để giúp hệ thống kiểm tra tính đúng đắn khi nhập dữ liệu",
+      "B. Để có thể tính kích thước của bản ghi (bộ dữ liệu) và xác định vị trí các trường trong bản ghi",
+      "C. Để hệ thống dự trữ vùng nhớ phục vụ ghi dữ liệu",
+      "D. Tất cả đều đúng"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 19,
+    "question": "Các bước chính để tạo CSDL:",
+    "choices": [
+      "A. Tạo bảng; Chọn khóa chính cho bảng; Đặt tên bảng và lưu cấu trúc bảng; Tạo liên kết bảng",
+      "B. Tạo bảng; Chọn khóa chính cho bảng; Đặt tên bảng và lưu cấu trúc bảng",
+      "C. Tạo bảng; Chọn khóa chính cho bảng; Lưu cấu trúc bảng; Tạo liên kết bảng; cập nhật và khai thác CSDL",
+      "D. Tạo bảng; Chọn khóa chính cho bảng; Đặt tên bảng; Tạo liên kết bảng"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 20,
+    "question": "SQL là tên viết tắt của:",
+    "choices": [
+      "A. Structure Query Language",
+      "B. Query Structure Language",
+      "C. Structure Question Language",
+      "D. Structure Query Locator"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 21,
+    "question": "An toàn dữ liệu có thể hiểu là?",
+    "choices": [
+      "A. Dễ dàng cho công việc bảo trì dữ liệu",
+      "B. Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào ...",
+      "C. Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu",
+      "D. Tính nhất quán và toàn vẹn dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 22,
+    "question": "Mô hình ngoài là?",
+    "choices": [
+      "A. Nội dung thông tin của toàn bộ CSDL",
+      "B. Nội dung thông tin của toàn bộ CSDL dưới cách nhìn của người sử dụng",
+      "C. Nội dung thông tin của một phần cơ sở dữ liệu",
+      "D. Nội dung thông tin của một phần dữ liệu dưới cách nhìn của người sử dụng"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 23,
+    "question": "Mô hình trong là?",
+    "choices": [
+      "A. Là một trong các mô hình biểu diễn CSDL dưới dạng lưu trữ vật lý",
+      "B. Mô hình biểu diễn cơ sở dữ liệu trìu tượng ở mức quan niệm",
+      "C. Có nhiều cách biểu diễn CSDL dưới dạng lưu trữ vật lý",
+      "D. Mô hình lưu trữ vật lý dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 24,
+    "question": "Ánh xạ quan niệm-ngoài?",
+    "choices": [
+      "A. Quan hệ giữa mô hình trong và mô hình trong",
+      "B. Quan hệ giữa mô hình ngoài và mô hình ngoài",
+      "C. Quan hệ giữa mô hình ngoài và mô hình trong",
+      "D. Quan hệ môt-một giữa mô hình ngoài và mô hình dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 25,
+    "question": "Mục tiêu của cơ sở dữ liệu là?",
+    "choices": [
+      "A. Không làm thay đổi chiến lược truy nhập cơ sở dữ liệu",
+      "B. Bảo đảm tính độc lập dữ liệu",
+      "C. Không làm thay đổi cấu trúc lưu trữ dữ liệu",
+      "D. Dữ liệu chỉ được biểu diễn, mô tả một cách duy nhất"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 26,
+    "question": "Ràng buộc giải tích?",
+    "choices": [
+      "A. Quy tắc biểu diễn cấu trúc dữ liệu",
+      "B. Mối quan hệ giữa các thuộc tính được biểu diễn bằng các biểu thức toán học",
+      "C. Mô tả tính chất của các thuộc tính khi tạo lập CSDL",
+      "D. Các phép toán đại số quan hệ"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 27,
+    "question": "Ràng buộc logic?",
+    "choices": [
+      "A. Mối quan hệ giữa các thuộc tính được biểu diễn bằng các phụ thuộc hàm",
+      "B. Mối quan hệ giữa các thuộc tính được biểu diễn bằng các biểu thức toán học",
+      "C. Các phép so sánh",
+      "D. Các phép toán quan hệ"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 28,
+    "question": "Mô hình CSDL phân cấp là mô hình?",
+    "choices": [
+      "A. Dữ liệu được biểu diễn bằng con trỏ",
+      "B. Dữ liệu được biểu diễn bằng mối quan hệ thực thể",
+      "C. Dữ liệu được biểu diễn bằng bảng",
+      "D. Dữ liệu được biểu diễn bằng cấu trúc cây"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 29,
+    "question": "Khi thao tác bằng ngôn ngữ thao tác dữ liệu trên CSDL phân cấp?",
+    "choices": [
+      "A. Đảm bảo tính độc lập của dữ liệu",
+      "B. Đảm bảo tính ổn định",
+      "C. Đảm bảo tính toàn vẹn của dữ liệu",
+      "D. Có nhiều khả năng xẩy ra di thường thông tin"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 30,
+    "question": "Đặc trưng cấu trúc của mô hình mạng là?",
+    "choices": [
+      "A. Chứa các liên kết một - một và một - nhiều",
+      "B. Chứa các liên kết một - một, một - nhiều và nhiều - nhiều",
+      "C. Chứa các liên kết một - một, một - nhiều và nhiều - nhiều",
+      "D. Chứa các liên kết nhiều - một và một - nhiều"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 31,
+    "question": "Trong CSDL mạng, khi thực hiện các phép tìm kiếm?",
+    "choices": [
+      "A. Không phức tạp",
+      "B. CSDL càng lớn thì tìm kiếm càng phức tạp",
+      "C. Câu hỏi và kết quả các câu hỏi tìm kiếm thường đối xứng với nhau",
+      "D. Câu hỏi và kết quả các câu hỏi tìm kiếm không đối xứng với nhau"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 32,
+    "question": "Trong mô hình cơ sở dữ liệu quan hệ?",
+    "choices": [
+      "A. Thứ tự của các cột là quan trọng",
+      "B. Thứ tự của các cột là không quan trọng",
+      "C. Thứ tự của các hàng là quan trọng",
+      "D. Thứ tự của các hàng là không quan trọng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 33,
+    "question": "Ngôn ngữ thao tác dữ liệu quan hệ?",
+    "choices": [
+      "A. Phức tạp, tổn thất thông tin",
+      "B. Đơn giản và thụân tiện cho người sử dụng",
+      "C. Không toàn vẹn dữ liệu",
+      "D. Đơn giản nhưng không tiện lợi cho người sử dụng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 34,
+    "question": "Thực thể là?",
+    "choices": [
+      "A. Các đối tượng dữ liệu",
+      "B. Các quan hệ",
+      "C. Các mối liên kết giữa các đối tượng",
+      "D. Các đối tượng và mối liên kết giữa các đối tượng"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 35,
+    "question": "Nếu A => B và A => C thì suy ra?",
+    "choices": [
+      "A. A => BC",
+      "B. A => AB",
+      "C. AB => BC",
+      "D. AA => C"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 36,
+    "question": "Phụ thuộc nào sau đây là phụ thuộc đầy đủ?",
+    "choices": [
+      "A. (Số thứ tự, mã lớp) => Họ tên sinh viên",
+      "B. (Mã báo, mã khách hàng) => Giá báo",
+      "C. (Số chứng mionh thư, mã nhân viên) => Quá trình công tác",
+      "D. (Số hoá đơn, mã khách hàng) => Họ tên khách hàng"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 37,
+    "question": "Mục tiêu của cơ sở dữ liệu là?",
+    "choices": [
+      "A. Tính phụ thuộc dữ liệu",
+      "B. Tính toàn vẹn của dữ liệu",
+      "C. Tính độc lập của dữ liệu",
+      "D. Phản ánh trung thực thế giới hiện thực dữ liệu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 38,
+    "question": "Có thể chèn thêm thông tin một loại cáp khi chưa được lắp đặt?",
+    "choices": [
+      "A. Không thể được vì giá trị khoá không xác định",
+      "B. Có thể chèn được",
+      "C. Không thể được vì mâu thuẫn thông tin",
+      "D. Không thể được vì dị thường thông tin"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 39,
+    "question": "Ngôn ngữ thao tác dữ liệu là?",
+    "choices": [
+      "A. Một tập các ký hiệu biểu diễn dữ liệu",
+      "B. Một tập các phép toán dùng để cập nhật, bổ sung trên các hệ cơ sở dữ liệu",
+      "C. Một tập các quy tắc biểu diễn dữ liệu",
+      "D. Một tập các phép toán dùng để thao tác trên các hệ cơ sở dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 40,
+    "question": "Kết quả của các phép thao tác dữ liệu là?",
+    "choices": [
+      "A. Chuỗi dữ liệu",
+      "B. Tệp dữ liệu",
+      "C. Quan hệ",
+      "D. Cơ sở dữ liệu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 41,
+    "question": "Ưu điểm của cơ sở dữ liệu là?",
+    "choices": [
+      "A. Giảm dư thừa, nhất quán và toàn vẹn của dữ liệu",
+      "B. Các thuộc tính được mô tả trong nhiều tệp dữ liệu khác nhau",
+      "C. Khả năng xuất hiện mâu thuẫn và không nhất quán dữ liệu",
+      "D. Xuất hiện dị thường thông tin"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 42,
+    "question": "Dị thương thông tin có thể?",
+    "choices": [
+      "A. Dữ liệu nhất quán và toàn vẹn",
+      "B. Không xuất hiện mâu thuẫn thông tin",
+      "C. Thừa thiếu thông tin trong lưu trữ",
+      "D. Phản ánh đúng hiện thực khách quan dữ liệu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 43,
+    "question": "Người sử dụng có thể truy nhập?",
+    "choices": [
+      "A. Toàn bộ cơ sở dữ liệu",
+      "B. Hạn chế",
+      "C. Một phần cơ sở dữ liệu",
+      "D. Phụ thuộc vào quyền truy nhập"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 44,
+    "question": "Hệ quản trị CSDL DBMS (DataBase Management System) là?",
+    "choices": [
+      "A. Hệ thống phần mềm điều khiển các chiến lược truy nhập và tổ chức lưu trữ cơ sở dữ liệu",
+      "B. Tạo cấu trúc dữ liệu tương ứng với mô hình dữ liệu",
+      "C. Cập nhật, chèn thêm, loại bỏ hay sửa đổi dữ liệu mức tệp",
+      "D. Đảm bảo an toàn, bảo mật dữ liệu và tính toàn vẹn dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 45,
+    "question": "Đặc trưng của một mô hình dữ liệu là?",
+    "choices": [
+      "A. Người sử dụng có quyền truy nhập tại mọi lúc, mọi nơi",
+      "B. Tính ổn định, tính đơn giản, cần phải kiểm tra dư thừa, đối xứng và có cơ sở lý thuyết vững chắc",
+      "C. Biểu diễn dữ liệu đơn giản và không cấu trúc",
+      "D. Mô hình dữ liệu đơn giản"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 46,
+    "question": "Khi thao tác bằng ngôn ngữ thao tác dữ liệu trên CSDL phân cấp?",
+    "choices": [
+      "A. Có nhiều khả năng xảy ra dị thường thông tin",
+      "B. Đảm bảo tính độc lập của dữ liệu",
+      "C. Đảm bảo tính toàn vẹn của dữ liệu",
+      "D. Đảm bảo tính ổn định"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 47,
+    "question": "Trong CSDL mạng, khi thêm các bản ghi mới thì?",
+    "choices": [
+      "A. Phải đảm bảo được tính nhất quán và tính toàn vẹn của dữ liệu",
+      "B. Dư thừa thông tin",
+      "C. Không đảm bảo tính nhất quán và toàn vẹn của dữ liệu",
+      "D. Mâu thuẫn thông tin"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 48,
+    "question": "Cần thiết phải chuẩn hoá dữ liệu vì?",
+    "choices": [
+      "A. Khi thực hiện các phép lưu trữ trên các quan hệ chưa được chuẩn hoá thường xuất hiện các dị thường thông tin",
+      "B. Khi thực hiện các phép tách - kết nối tự nhiên các quan hệ",
+      "C. Khi thực hiện các phép tìm kiếm, xuất hiện các dị thường thông tin",
+      "D. Giá trị khoá nhận giá trị null hay giá trị không xác định"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 49,
+    "question": "Mục tiêu của chuẩn hoá dữ liệu là?",
+    "choices": [
+      "A. Đảm bảo tính bảo mật dữ liệu",
+      "B. Triệt tiêu mức cao nhất khả năng xuất hiện các dị thường thông tin",
+      "C. Đẩm bảo tính nhất quán dữ liệu",
+      "D. Đảm bảo cho việc lưu trữ dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 50,
+    "question": "Quan hệ gồm các thuộc tính mã số, họ tên và địa chỉ ở dạng chuẩn nào?",
+    "choices": [
+      "A. Dạng chuẩn 2NF",
+      "B. Dạng chuẩn 1NF, không là 2NF",
+      "C. Dạng chuẩn 3NF",
+      "D. Dạng chuẩn 2NF, không là 3NF"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 51,
+    "question": "Các toán hạng trong các phép toán là?",
+    "choices": [
+      "A. Các biểu thức",
+      "B. Các quan hệ",
+      "C. Các thuộc tính",
+      "D. Các bộ n giá trị"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 52,
+    "question": "Phép sửa đổi là phép toán?",
+    "choices": [
+      "A. Sửa đổi giá trị của một số thuộc tính",
+      "B. Sửa đổi mô tả các thuộc tính",
+      "C. Sửa đổi giá trị của một quan hệ hay một nhóm các quan hệ",
+      "D. Sửa đổi giá trị của một bộ hay một nhóm các bộ"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 53,
+    "question": "Thứ tự đúng trong câu lệnh SELECT là?",
+    "choices": [
+      "A. SELECT, FROM, WHERE, GROUP BY HAVING, ORDER BY",
+      "B. SELECT, FROM, GROUP BY HAVING, ORDER BY",
+      "C. SELECT, FROM, GROUP BY HAVING, ORDER BY",
+      "D. SELECT, FROM, GROUP BY HAVING, WHERE, ORDER BY"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 54,
+    "question": "Phép toán tập hợp trong mệnh đề WHERE bao gồm?",
+    "choices": [
+      "A. Các phép đại số quan hệ",
+      "B. Các phép số học và các phép so sánh",
+      "C. Biểu thức đại số",
+      "D. Các phép so sánh"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 55,
+    "question": "Các phép toán gộp nhóm được sử dụng sau mệnh đề?",
+    "choices": [
+      "A. SELECT",
+      "B. FROM",
+      "C. WHERE",
+      "D. GROUP BY"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 56,
+    "question": "Phép chọn được thực hiện sau mệnh đề nào trong SELECT - FROM - WHERE?",
+    "choices": [
+      "A. GROUP BY HAVING",
+      "B. WHERE",
+      "C. SELECT",
+      "D. FROM"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 57,
+    "question": "Ngôn ngữ đinh nghĩa dữ liệu - DDL (Data Definition Language):",
+    "choices": [
+      "A. Được đặc tả bằng cách chương trình ứng dụng",
+      "B. Được đặc tả bằng một phần của hệ quản trị cơ sở dữ liệu",
+      "C. Được đặc tả bằng một ngôn ngữ dữ liệu",
+      "D. Được đặc tả bằng một ngôn ngữ, một phần của hệ quản trị cơ sở dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 58,
+    "question": "Hai biểu thức E1 và E2 tương đương với nhau, nếu:",
+    "choices": [
+      "A. Chúng biểu diễn cùng một ánh xạ",
+      "B. Các quan hệ giống nhau trong biểu thức",
+      "C. Các kết quả giống nhau",
+      "D. Các quan hệ trong các biểu thức cùng miền xác định"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 59,
+    "question": "An toàn mức độ mạng là?",
+    "choices": [
+      "A. Bảo vệ thông tin trên đường truyền",
+      "B. Cho phép truy cập từ xa, có kiểm soát",
+      "C. Cho phép truy cập từ xa",
+      "D. Không cho phép truy cập từ xa"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 60,
+    "question": "Dạng cấp quyền truy xuất trong SQL là?",
+    "choices": [
+      "A. GRANT ON TO ..",
+      "B. GRANT GO TO ..",
+      "C. GRANT TO ..",
+      "D. GRANT READ ON .."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 61,
+    "question": "Chọn một khẳng định sau đây là đúng nhất?",
+    "choices": [
+      "A. Sự không nhất quán dữ liệu trong lưu trữ làm cho dữ liệu mất đi tính toàn vẹn",
+      "B. Tính toàn vẹn dữ liệu đảm bảo dữ liệu luôn luôn đúng",
+      "C. Tính nhất quán dữ liệu đảm bảo cho sự cập nhật, bổ sung dễ dàng",
+      "D. Tổ chức lưu trữ theo lý thuyết cơ sở dữ liệu, các thuộc tính có thể lặp lại"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 62,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất?",
+    "choices": [
+      "A. Dữ liệu được biểu diễn, mô tả nhiều cách khác nhau",
+      "B. Người sử dụng khi thao tác trên các cơ sở dữ liệu có thể làm thay đổi cấu trúc lưu trữ dữ liệu và chiến lược truy nhập cơ sở dữ liệu",
+      "C. Cấu trúc lưu trữ và các hệ chương trình ứng dụng trên độc lập với nhau",
+      "D. Mục tiêu của các hệ CSDL là: tính bất biến cuả các hệ ứng dụng đối với sự thay đổi trong cấu trúc lưu trữ và chiến lược truy nhập dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 63,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất?",
+    "choices": [
+      "A. Chuẩn hoá dữ liệu là quá trình tách quan hệ không làm tổn thất thông tin",
+      "B. Quan hệ gốc được chứa trong quan hệ kết nối tự nhiên của các quan hệ chiếu",
+      "C. Dữ liệu lưu trữ trong CSDL phản ảnh tính tính toàn vẹn dữ liệu",
+      "D. Chuẩn hoá dữ liệu là quá trình thực hiện các phép lưu trữ"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 64,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về mục tiêu?",
+    "choices": [
+      "A. Tách quan hệ là thực hiện tối ưu truy vấn, tìm kiếm",
+      "B. Tách quan hệ là nhằm đảm bảo tính độc lập dữ liệu",
+      "C. Tách quan hệ là thực hiện tối ưu lưu trữ, tiết kiệm bộ nhớ",
+      "D. Tách quan hệ là làm giảm nhẹ tính toán"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 65,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất?",
+    "choices": [
+      "A. Khi thực hiện phép tách, quan hệ gốc không tổn thất",
+      "B. Khi thực hiện phép tách, quan hệ gốc bị tổn thất",
+      "C. Khi thực hiện phép tách, quan hệ gốc luôn luôn tổn thất",
+      "D. Khi thực hiện phép tách, quan hệ gốc có thể bị tổn thất"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 66,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất?",
+    "choices": [
+      "A. Cấu trúc dữ liệu trong các quan hệ 1NF cho phép sửa đổi bổ sung thuận tiện",
+      "B. Cấu trúc dữ liệu trong các quan hệ 1NF ẩn chứa dị thường thông tin",
+      "C. Cấu trúc dữ liệu trong các quan hệ 1NF gây khó khăn truy vấn thông tin",
+      "D. Cấu trúc dữ liệu trong các quan hệ 1NF đơn giản"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 67,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi khảo sát quan hệ gồm các thuộc tính: Mã cáp, tên cáp, giá, mã nước sản xuất, nước sản xuất?",
+    "choices": [
+      "A. Là quan hệ 3NF",
+      "B. Là quan hệ 3NF, không phải là quan hệ 2NF",
+      "C. Là quan hệ 2NF và không chứa các phụ thuộc bắc cầu",
+      "D. Tồn tại phụ thuộc mà vế phải và trái không phải là thuộc tính khoá"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 68,
+    "question": "Quá trình tối ưu hoá các câu hỏi truy vấn dữ liệu là?",
+    "choices": [
+      "A. Kết quả của các phép toán được biểu diễn duy nhất bằng một quan hệ",
+      "B. Cần thiết phải biến đổi các câu hỏi hợp lý",
+      "C. Biến đổi câu hỏi sao cho chi phí thời gian và sử dụng bộ nhớ là ít nhất",
+      "D. Giảm chi phí thời gian thực hiện các phép toán còn ít nhất"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 69,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Tính độc lập dữ liệu là \"...... cuả các hệ ứng dụng đối với sự thay đổi trong cấu trúc lưu trữ và chiến lược truy nhập dữ liệu\"?",
+    "choices": [
+      "A. Phương thức truy nhập",
+      "B. Các chiến lược truy nhập",
+      "C. Nội dung thông tin",
+      "D. Tính tất biến"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 70,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong cấu trúc hình cây, khi sửa đổi một số thông tin trong các bản ghi phụ thuộc thì phải duyệt toàn bộ mô hình, bằng cách dò tìm trong từng xuất hiện. Dẫn đến sự xuất hiện ...",
+    "choices": [
+      "A. Toàn vẹn dữ liệu trong lưu trữ",
+      "B. An toàn dữ liệu",
+      "C. Tổn thất thông tin",
+      "D. Không nhất quán dữ liệu trong lưu trữ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 71,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Mô hình dữ liệu mạng là mô hình thực thể quan hệ, trong đó các mối liên kết hạn chế ... không chứa liên kết nhiêu - nhiều. Trong dấu \"...\" là cụm từ nào?",
+    "choices": [
+      "A. Tính đối xứng",
+      "B. Trong kiểu một - một và nhiều - một",
+      "C. Trong kiểu một bản ghi liên kết",
+      "D. Trong kiểu một bản ghi thực thể"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 72,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Tính độc lập dữ liệu trong các hệ cơ sở dữ liệu quan hệ cao, thể hiện cấu trúc lưu trữ và chiến lược truy nhập có thể ... nhưng không thay đổi sơ đồ quan niệm và ngược lại. Trong dấu \"...\" là cụm từ nào?",
+    "choices": [
+      "A. Thay đổi",
+      "B. Độc lập lẫn nhau",
+      "C. Không thay đổi",
+      "D. Phụ thuộc lẫn nhau"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 73,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Giá trị các thành phần của khoá ..., Trong dấu \"...\" là cụm từ nào?",
+    "choices": [
+      "A. Có thể nhận giá trị null hay các giá trị không xác định",
+      "B. Có thể nhận giá trị các giá trị không xác định",
+      "C. Không thể nhận giá trị null và chấp nhận các giá trị không xác định",
+      "D. Không thể nhận giá trị null hay các giá trị không xác định"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 74,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Nói rằng bộ t của quan hệ R thoả mãn biểu thức logic E, ký hiệu t(E) nếu sau khi thay mọi giá trị của thuộc tính A trong E bởi giá trị t[A] tương ứng thì ...",
+    "choices": [
+      "A. Nhận được giá trị đa trị",
+      "B. Nhận được giá trị \"False\"",
+      "C. Nhận được giá trị đơn trị",
+      "D. Nhận được giá trị \"True\""
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 75,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Từ các phép toán đại số quan hệ, một câu vấn tin có thể được biểu diễn bởi ...",
+    "choices": [
+      "A. Một biểu thức quan hệ",
+      "B. Một cây quan hệ",
+      "C. Biểu thức quan hệ và một cây phép toán quan hệ",
+      "D. Biểu thức quan hệ hay một cây quan hệ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 76,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Nếu trong câu lệnh SELECT có chứa GROUP BY, hệ thống sẽ ... và thực hiện các phép gộp nhóm. Trong dấu \"...\" là gi?",
+    "choices": [
+      "A. Phân hoạch quan hệ thành nhiều nhóm tách biệt nhau",
+      "B. Thực hiện việc sắp xếp theo chỉ dẫn sau mệnh đề ORDER BY",
+      "C. Thực hiện phép chọn sau mệnh đề WHERE",
+      "D. Thực hiện phép chiếu sau mệnh đề SELECT"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 77,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Toàn vẹn dữ liệu nghĩa là?",
+    "choices": [
+      "A. Có thể thực hiện các chiến lược truy nhập dữ liệu",
+      "B. Dữ liệu trong CSDL luôn luôn chính xác tại mọi thời điểm",
+      "C. Có thể tìm kiếm tại mọi thời điểm",
+      "D. Bảo đảm tính độc lập dữ liệu tại mọi thời điểm"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 78,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Hình thức thông dụng nhất để nhận biết người sử dụng là mật khẩu ...",
+    "choices": [
+      "A. Đảm bảo toàn vẹn dữ liệu",
+      "B. Chỉ có hệ thống và người sử dụng biết",
+      "C. Mới được phép truy nhập CSDL",
+      "D. Và các quy tắc bảo vệ cơ sở dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 79,
+    "question": "Cho quan hệ R gồm các thuộc tính: K# mã thuê bao, TB tên thuê bao, SDT số điện thoại, DC địa chỉ. Chọn câu đúng sau đây khi tính tổng các thuê bao có cùng tên là Lê Ngọc Hà?",
+    "choices": [
+      "A. SELECT COUNT FROM R WHERE TB = \"Lê Ngọc Hà\"",
+      "B. SELECT TB, DC FROM R WHERE TB = \"Lê Ngọc Hà\"",
+      "C. SELECT * FROM R WHERE TB = \"Lê Ngọc Hà\"",
+      "D. SELECT * FROM R WHERE TB = \"Lê Ngọc Hà\" GROUP BY TB"
+    ],
+    "correct_answer": -1
+  },
+  {
+    "id": 80,
+    "question": "Cho quan hệ R gồm các thuộc tính: K# mã thuê bao, TB tên thuê bao, SDT số điện thoại, DC điạ chỉ. Chọn câu đúng sau đây khi tính tổng có bao nhiêu thuê bao trên \"Đường Nguyễn Trãi\"?",
+    "choices": [
+      "A. SELECT * FROM R",
+      "B. SELECT * FROM R GROUP BY TB HAVING DC = \"Đường Nguyễn Trãi\"",
+      "C. SELECT COUNT FROM R WHERE DC = \"Đường Nguyễn Trãi\"",
+      "D. SELECT * FROM R WHERE DC = \"Đường Nguyễn Trãi\""
+    ],
+    "correct_answer": -1
+  },
+  {
+    "id": 81,
+    "question": "Cơ sở dữ liệu là:",
+    "choices": [
+      "A. Một bộ sưu tập rất lớn về các loại dữ liệu tác nghiệp, lưu trữ theo quy tắc .",
+      "B. Một bộ sưu tập rất lớn về các loại dữ liệu tác nghiệp",
+      "C. Tập các File dữ liệu tác nghiệp.",
+      "D. Kho dữ liệu tác nghiệp"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 82,
+    "question": "Các loại dữ liệu bao gồm:",
+    "choices": [
+      "A. Tập các File số liệu",
+      "B. Âm thanh, tiếng nói, chữ viết, văn bản, đồ hoạ, hình ảnh tĩnh, hình ảnh động....",
+      "C. Âm thanh, tiếng nói, chữ viết, văn bản, đồ hoạ, hình ảnh tĩnh hay hình ảnh động...dưới dạng nhị phân.",
+      "D. Âm thanh, tiếng nói, chữ viết, văn bản, đồ hoạ, hình ảnh tĩnh hay hình ảnh động....được lưu trữ trong các bộ nhớẻtong các dạng File."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 83,
+    "question": "Cơ sở dữ liệu là tài nguyên thông tin chung, nghĩa là:",
+    "choices": [
+      "A. Truy nhập trực tuyến.",
+      "B. Nhiều người sử dụng, không phụ thuộc vị trí địa lý, có phân quyền.",
+      "C. Nhiều người sử dụng.",
+      "D. Nhiều người sử dụng, có phân quyền."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 84,
+    "question": "Hệ quản trị CSDL - HQTCSDL (DataBase Management System - DBMS) là:",
+    "choices": [
+      "A. Hệ điều hành",
+      "B. Các phần mềm hệ thống.",
+      "C. Phần mềm điều khiển các chiến lược truy nhập CSDL.",
+      "D. Các phần mềm ứng dụng."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 85,
+    "question": "Chức năng quan trọng của các dịch vụ có sở dữ liệu là:",
+    "choices": [
+      "A. Cập nhật, sửa đổi, bổ sung dữ liệu",
+      "B. Khôi phục thông tin.",
+      "C. Tìm kiếm và tra cứu thông tin.",
+      "D. Xử lý, tìm kiếm, tra cưú, sửa đổi, bổ sung hay loại bỏ dữ liệu...."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 86,
+    "question": "Ưu điểm cơ sở dữ liệu:",
+    "choices": [
+      "A. Xuất hiện dị thường thông tin.",
+      "B. Các thuộc tính được mô tả trong nhiều tệp dữ liệu khác nhau.",
+      "C. Khả năng xuất hiện mâu thuẫn và không nhất quán dữ liệu.",
+      "D. Giảm dư thừa, nhất quán và toàn vẹn của dữ liệu."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 87,
+    "question": "Dị thườngng thông tin có thể:",
+    "choices": [
+      "A. Thừa thiếu thông tin trong lưu trữ.",
+      "B. Dữ liệu nhất quán và toàn vẹn.",
+      "C. Phản ánh đúng hiện thực khách quan dữ liệu.",
+      "D. Không xuất hiện mâu thuẫn thông tin"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 88,
+    "question": "Không nhất quán dữ liệu trong lưu trữ:",
+    "choices": [
+      "A. Không xuất hiện mâu thuẫn thông tin.",
+      "B. Làm cho dữ liệu mất đi tính toàn vẹn cuả nó.",
+      "C. Không thể sửa đổi, bổ sung, cập nhật dữ liệu",
+      "D. Có thể triển khai tra cứu tìm kiếm."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 89,
+    "question": "Tính toàn vẹn dữ liệu đảm bảo",
+    "choices": [
+      "A. Cho sự lưu trữ dữ liệu luôn luôn đúng.",
+      "B. Phản ánh đúng hiện thực khách quan dữ liệu.",
+      "C. Giảm dư thừa, nhất quán và toàn vẹn của dữ liệu.",
+      "D. Cho việc cập nhật, sửa đổi, bổ sung dữ liệu.thuận lợi"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 90,
+    "question": "An toàn dữ liệu có thể hiểu là:",
+    "choices": [
+      "A. Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào...",
+      "B. Tính nhất quán và toàn vẹn dữ liệu.",
+      "C. Dễ dàng cho công việc bảo trì dữ liệu.",
+      "D. Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 91,
+    "question": "Thứ tự đúng các mức trong mô hình kiến trúc cơ sở dữ liệu:",
+    "choices": [
+      "A. Mức ngoài, mức quan niệm và mức mô hình.",
+      "B. Mức quan niệm, mức trong và mức ngoài.",
+      "C. Mức ngoài, mức quan niệm và mức trong.",
+      "D. Mức trong, mức mô hình dữ liệu và mức ngoài."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 92,
+    "question": "Người sử dụng có thể truy nhập:",
+    "choices": [
+      "A. Một phần cơ sở dữ liệu",
+      "B. Phụ thuộc vào quyền truy nhập.",
+      "C. Toàn bộ cơ sở dữ liệu",
+      "D. Hạn chế"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 93,
+    "question": "Cách nhìn cơ sở dữ liệu của người sử dụng bằng:",
+    "choices": [
+      "A. Mô hình trong.",
+      "B. Mô hình ngoài.",
+      "C. Mô hình ngoài và mô hình dữ liệu",
+      "D. Mô hình dữ liệu."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 94,
+    "question": "Mô hình ngoài là:",
+    "choices": [
+      "A. Nội dung thông tin của toàn bộ CSDL",
+      "B. Nội dung thông tin của một phần dữ liệu dưới cách nhìn của người sử dụng.",
+      "C. Nội dung thông tin của toàn bộ CSDL dưới cách nhìn của người sử dụng.",
+      "D. Nội dung thông tin của một phần cơ sở dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 95,
+    "question": "Mô hình quan niệm là:",
+    "choices": [
+      "A. Cách nhìn dữ liệu ở mức ngoài.",
+      "B. Nội dung thông tin của một phần dữ liệu dưới cách nhìn của người sử dụng.",
+      "C. Cách nhìn dữ liệu một cách tổng quát của người sử dụng.",
+      "D. Nội dung thông tin của một phần dữ liệu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 96,
+    "question": "Mô hình trong là:",
+    "choices": [
+      "A. Mô hình biểu diễn cơ sở dữ liệu trìu tượng ở mức quan niệm.",
+      "B. Có nhiều cách biểu diễn CSDL dưới dạng lưu trữ vật lý.",
+      "C. Mô hình lưu trữ vật lý dữ liệu.",
+      "D. Là một trong các mô hình biểu diễn CSDL dưới dạng lưu trữ vật lý."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 97,
+    "question": "Ánh xạ quan niệm trong",
+    "choices": [
+      "A. Bảo đảm tính độc lập của dữ liệu.",
+      "B. Bảo đảm tính phụ thuộc lẫn nhau giữa mô hình trong và mô hình ngoài.",
+      "C. Bảo đảm cấu trúc lưu trữ của mô hình dữ liệu không thay đổi.",
+      "D. Bảo đảm cấu trúc lưu trữ của CSDL khi có sự thay đổi."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 98,
+    "question": "Ánh xạ quan niệm-ngoài:",
+    "choices": [
+      "A. Quan hệ giữa mô hình ngoài và mô hình ngoài",
+      "B. Quan hệ giữa mô hình trong và mô hình trong",
+      "C. Quan hệ môt-một giữa mô hình ngoài và mô hình dữ liệu.",
+      "D. Quan hệ giữa mô hình ngoài và mô hình trong."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 99,
+    "question": "Mục tiêu của cơ sở dữ liệu là :",
+    "choices": [
+      "A. Không làm thay đổi chiến lược truy nhập cơ sở dữ liệu.",
+      "B. Không làm thay đổi cấu trúc lưu trữ dữ liệu.",
+      "C. Dữ liệu chỉ được biểu diễn, mô tả một cách duy nhất.",
+      "D. Bảo đảm tính độc lập dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 100,
+    "question": "Hệ quản trị CSDL DBMS (DataBase Management System) là:",
+    "choices": [
+      "A. Đảm bảo an toàn, bảo mật dữ liệu và tính toàn vẹn dữ liệu.",
+      "B. Tạo cấu trúc dữ liệu tương ứng với mô hình dữ liệu.",
+      "C. Hệ thống phần mềm điều khiển các chiến lược truy nhập và tổ chức lưu trữ cơ sở dữ liệu.",
+      "D. Cập nhật, chèn thêm, loại bỏ hay sửa đổi dữ liệu mức tệp."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 101,
+    "question": "Mô hình CSDL phân cấp là mô hình:",
+    "choices": [
+      "A. Dữ liệu được biểu diễn bằng con trỏ.",
+      "B. Dữ liệu được biểu diễn bằng cấu trúc cây.",
+      "C. Dữ liệu được biểu diễn bằng mối quan hệ thực thể",
+      "D. Dữ liệu được biểu diễn bằng bảng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 102,
+    "question": "Trong mô hình CSDL phân cấp có thể:",
+    "choices": [
+      "A. Không có bản ghi gốc.",
+      "B. Tồn tại các loại cây không chứa gốc và phụ thuộc.",
+      "C. Các bản ghi phụ thuộc chỉ tồn tại khi và chỉ khi tồn tại bản ghi gốc.",
+      "D. Tồn tại các loại cây chỉ có các bản ghi phụ thuộc."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 103,
+    "question": "Điều gì sẽ xẩy ra khi loại bỏ bản ghi gốc duy nhất trong một cây.",
+    "choices": [
+      "A. Mâu thuẫn thông tin.",
+      "B. Dư thừa thông tin.",
+      "C. Không toàn vẹn dữ liệu.",
+      "D. Mất thông tin"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 104,
+    "question": "Mất thông tin khi xoá bản ghi phụ thuộc trong trường hợp:",
+    "choices": [
+      "A. Xoá bản ghi gốc.",
+      "B. Xoá tất cả các bản ghi phụ thuộc",
+      "C. Xoá cấu trúc cây phân cấp.",
+      "D. Xoá bản ghi phụ thuộc duy nhất."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 105,
+    "question": "Tìm kiếm thông tin trong CSDL phân cấp:",
+    "choices": [
+      "A. CSDL phân cấp càng lớn thì tìm kiếm càng phức tạp.",
+      "B. Đơn giản, tiện lợi.",
+      "C. Dễ thao tác, dễ sử dụng",
+      "D. Nhanh chóng, chính xác."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 106,
+    "question": "Trong mô hình phân cấp dữ liệu được biểu diễn:",
+    "choices": [
+      "A. Trong mỗi một cây, một bản gốc và bản ghi phụ thuộc.",
+      "B. Trong một tệp duy nhất theo cấu trúc cây.",
+      "C. Trong nhiều cây",
+      "D. Trong nhiều tệp theo cấu trúc cây."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 107,
+    "question": "Khi thao tác bằng ngôn ngữ thao tác dữ liệu trên CSDL phân cấp:",
+    "choices": [
+      "A. Có nhiều khả năng xẩy ra di thường thông tin.",
+      "B. Đảm bảo tính toàn vẹn của dữ liệu.",
+      "C. Đảm bảo tính độc lập của dữ liệu",
+      "D. Đảm bảo tính ổn định"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 108,
+    "question": "Đặc trưng cấu trúc của mô hình mạng là:",
+    "choices": [
+      "A. Chứa các liên kết một - một và một - nhiều.",
+      "B. Chứa các liên kết một - một, một - nhiều và nhiều - nhiều.",
+      "C. Chứa các liên kết một - một, một - nhiều và nhiều - nhiều.",
+      "D. Chứa các liên kết nhiều - một và một - nhiều."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 109,
+    "question": "Biểu diễn dữ liệu trong mô hình CSDL mạng:",
+    "choices": [
+      "A. Bằng các bảng 2 chiều.",
+      "B. Các mối nối liên kết giữa các bản ghi, tạo thành một đồ thị có hướng.",
+      "C. Bằng các ký hiệu biểu diễn.",
+      "D. Các mối nối liên kết giữa các bản ghi theo cấu trúc cây."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 110,
+    "question": "Trong CSDL mạng, khi thêm các bản ghi mới:",
+    "choices": [
+      "A. Mâu thuẫn thông tin.",
+      "B. Dư thừa thông tin",
+      "C. Đảm bảo được tính nhất quán và tính toàn vẹn của dữ liệu.",
+      "D. Không đảm bảo tính nhất quán và toàn vẹn của dữ liệu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 111,
+    "question": "Người quản trị CSDL là:",
+    "choices": [
+      "A. Quyết định cấu trúc lưu trữ & chiến lược truy nhập",
+      "B. Xác định chiến lược lưu trữ, sao chép, phục hồi dữ liệu.",
+      "C. Cho phép người sử dụng những quyền truy nhập cơ sở dữ liệu",
+      "D. Một người hay một nhóm người có khả năng chuyên môn cao về tin học, có trách nhiệm quản lý và điều khiển toàn bộ hoạt động của các hệ CSDL"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 112,
+    "question": "Ràng buộc dữ liệu :",
+    "choices": [
+      "A. Các định nghĩa, tiên đề, định lý",
+      "B. Quy tắc biểu diễn cấu trúc dữ liệu.",
+      "C. Mối quan hệ giữa các thực thể dữ liệu.",
+      "D. Các quy tắc, quy định."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 113,
+    "question": "Ràng buộc kiểu:",
+    "choices": [
+      "A. Quy tắc đặt tên cơ sở dữ liệu.",
+      "B. Mô tả tính chất của các thuộc tính khi tạo lập CSDL",
+      "C. Quy tắc truy nhập cơ sở dữ liệu.",
+      "D. Mối quan hệ giữa các thực thể dữ liệu."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 114,
+    "question": "Ràng buộc giải tích:",
+    "choices": [
+      "A. Mối quan hệ giữa các thuộc tính được biểu diễn bằng các biểu thức toán học.",
+      "B. Quy tắc biểu diễn cấu trúc dữ liệu.",
+      "C. Các phép toán đại số quan hệ",
+      "D. Mô tả tính chất của các thuộc tính khi tạo lập CSDL"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 115,
+    "question": "Ràng buộc logic:",
+    "choices": [
+      "A. Các phép so sánh",
+      "B. Mối quan hệ giữa các thuộc tính được biểu diễn bằng các biểu thức toán học.",
+      "C. Mối quan hệ giữa các thuộc tính được biểu diễn bằng các phụ thuộc hàm.",
+      "D. Các phép toán quan hệ"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 116,
+    "question": "Mô hình cơ sở dữ liệu Client-Sserver:",
+    "choices": [
+      "A. Máy chủ và máy đều tham gia quá trình xử lý.",
+      "B. Máy khách thực hiện các ứng dụng, nó gửi yêu cầu về máy chủ được kết nối với cơ sở dữ liệu, máy chủ xử lý và gửi trả lại kết quả về máy khách.",
+      "C. Máy khách yêu cầu máy chủ cung cấp các loại dịch vụ.",
+      "D. Các máy khách chia sẻ gánh nặng xử lý của máy chủ trung tâm."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 117,
+    "question": "Đặc trưng của một mô hình dữ liệu:",
+    "choices": [
+      "A. Mô hình dữ liệu đơn giản.",
+      "B. Biểu diễn dữ liệu đơn giản và không cấu trúc.",
+      "C. Tính ổn định, tính đơn giản, cần phải kiểm tra dư thừa , đối xứng và có cơ sở lý thuyết vững chắc.",
+      "D. Người sử dụng có quyền truy nhập tại mọi lúc, mọi nơi."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 118,
+    "question": "Mô hình dữ liệu tốt nhất:",
+    "choices": [
+      "A. Khi thao tác dễ dàng nhất.",
+      "B. Không tổn thất thông tin.",
+      "C. Phụ thuộc vào yêu cầu truy xuất và khai thác thông tin.",
+      "D. Độc lập dữ liệu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 119,
+    "question": "Mô hình dữ liệu nào có khả năng hạn chế sự dư thừa dữ liệu tốt hơn.",
+    "choices": [
+      "A. Tất cả các loại mô hình dữ liệu.",
+      "B. Mô hình dữ liệu hướng đối tượng.",
+      "C. Mô hình cơ sở dữ liệu phân cấp",
+      "D. Mô hình cơ sỏ dữ liệu phân tán."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 120,
+    "question": "Mô hình dữ liệu nào không chấp nhận mối quan hệ nhiều - nhiều.",
+    "choices": [
+      "A. Mô hình dữ liệu mạng",
+      "B. Cơ sở dữ liệu phân cấp.",
+      "C. Tất cả các mô hình dữ liệu.",
+      "D. Cơ sở dữ liệu phân tán."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 121,
+    "question": "Trong CSDL mạng, khi xoá các bản ghi:",
+    "choices": [
+      "A. Không toàn vẹn dữ liệu.",
+      "B. Làm mất thông tin",
+      "C. Mâu thuẫn thông tin sẽ xuất hiện",
+      "D. Đảm bảo được tính nhất quán và tính toàn vẹn của dữ liệu."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 122,
+    "question": "Trong CSDL mạng, khi thực hiện các phép sửa đổi nội dung dữ liệu:",
+    "choices": [
+      "A. Đảm bảo tính toàn vẹn dữ liệu.",
+      "B. Không dư thừa thông tin.",
+      "C. Làm xuất hiện mâu thuẫn dữ liệu.",
+      "D. Không làm xuất hiện mâu thuẫn dữ liệu."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 123,
+    "question": "Trong CSDL mạng, khi thực hiện các phép tìm kiếm:",
+    "choices": [
+      "A. Câu hỏi và kết quả các câu hỏi tìm kiếm không đối xứng với nhau.",
+      "B. CSDL càng lớn thì tìm kiếm càng phức tạp.",
+      "C. Câu hỏi và kết quả các câu hỏi tìm kiếm thường đối xứng với nhau.",
+      "D. Không phức tạp"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 124,
+    "question": "Cấu trúc dữ liệu trong mô hình CSDL mạng:",
+    "choices": [
+      "A. Quá phức tạp vì quá nhiều liên kết giữa các thực thể",
+      "B. Chứa 2 thực thể.",
+      "C. Quá phức tạp vì quá nhiều các thực thể.",
+      "D. Chứa n thực thể"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 125,
+    "question": "Trong mô hình cơ sở dữ liệu quan hệ:",
+    "choices": [
+      "A. Thứ tự của các cột là quan trọng.",
+      "B. Thứ tự của các cột là không quan trọng.",
+      "C. Thứ tự của các hàng là không quan trọng.",
+      "D. Thứ tự của các hàng là quan trọng."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 126,
+    "question": "Cấu trúc dữ liệu quan hệ là:",
+    "choices": [
+      "A. Liên kết giữa các bộ được biểu diễn duy nhất bằng các giá trị trong các cột.",
+      "B. Mối liên kết giữa các bộ.",
+      "C. Mối liên kết hình xây",
+      "D. Mối liên kết giữa các cột."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 127,
+    "question": "Dữ liệu trong mô hình quan hệ:",
+    "choices": [
+      "A. Được biểu diễn theo cấu trúc hình cây.",
+      "B. Được biểu diễn một cách duy nhất.",
+      "C. Được biểu diễn theo cấu trúc mô hình mạng.",
+      "D. Được biểu diễn nhiều kiểu khác nhau"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 128,
+    "question": "Ngôn ngữ thao tác dữ liệu :",
+    "choices": [
+      "A. Là các phép toán được xây dựng trên đại số quan hệ .",
+      "B. Là các phép chèn thêm, sửa đổi và loại bỏ",
+      "C. Là các phép toán số học",
+      "D. Là các phép toán: hợp, giao, trừ..."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 129,
+    "question": "Khi thực hiện các phép lưu trữ trên quan hệ:",
+    "choices": [
+      "A. Dị thường thông tin, không bảo đảm được tính toàn vẹn dữ liệu.",
+      "B. Không dị thường thông tin, bảo đảm được tính toàn vẹn dữ liệu.",
+      "C. Dị thường thông tin, không bảo đảm được việc thực hiện truy vấn dữ liệu.",
+      "D. Không dị thường thông tin, là bảo đảm được tính độc lập dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 130,
+    "question": "Kết quả của các thao tác dữ liệu là:",
+    "choices": [
+      "A. Một biểu thức.",
+      "B. Một File",
+      "C. Một quan hệ",
+      "D. Nhiều quan hệ."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 131,
+    "question": "Ngôn ngữ thao tác dữ liệu quan hệ:",
+    "choices": [
+      "A. Không toàn vẹn dữ liệu",
+      "B. Đơn giản nhưng không tiện lợi cho người sử dụng.",
+      "C. Phức tạp, tổn thất thông tin",
+      "D. Đơn giản và thụân tiện cho người sử dụng"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 132,
+    "question": "Mô hình thực thể quan hệ cho phép mô tả:",
+    "choices": [
+      "A. Bộ sưu tập các loại dữ liệu của một tổ chức.",
+      "B. Cấu trúc hệ thống cơ sở dữ liệu",
+      "C. Hệ thống thông tin quan lý của tổ chức.",
+      "D. Lược đồ khái niệm của một tổ chức."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 133,
+    "question": "Mô hình thực thể - quan hệ cơ bản bao gồm các lớp đối tượng:",
+    "choices": [
+      "A. Thực thể và thuộc tính",
+      "B. Môi trường và ranh giới môi trường",
+      "C. Thực thể, mối quan hệ và thuộc tính .",
+      "D. Các mối quan hệ"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 134,
+    "question": "Thực thể là:",
+    "choices": [
+      "A. Các đối tượng và mối liên kết giữa các đối tượng",
+      "B. Các đối tượng dữ liệu",
+      "C. Các mối liên kết giữa các đối tượng.",
+      "D. Các quan hệ"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 135,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong biểu thức quan hệ các toán hạng là .........",
+    "choices": [
+      "A. Các phần tử",
+      "B. Các phụ thuộc hàm.",
+      "C. Các thuộc tính.",
+      "D. Các quan hệ trong một CSDL"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 136,
+    "question": "X là một tập con các thuộc tính, ký hiệu X Ω, khi và chỉ khi:",
+    "choices": [
+      "A. Với mọi thuộc tính của X cũng là thuộc tính của Ω",
+      "B. Với mọi thuộc tính của Ω",
+      "C. Với mọi thuộc tính của Ω, cũng là thuộc tính của X",
+      "D. Tất cả đều sai"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 137,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Toán hạng trong các phép đại số quan hệ là các ......",
+    "choices": [
+      "A. Các biểu thức toán học",
+      "B. Quan hệ hoặc các biểu thức quan hệ",
+      "C. Quan hệ hằng hoặc các biến biểu thị cho các quan hệ có bậc cố định.",
+      "D. Các biến biểu thị cho các quan hệ có bậc cố định."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 138,
+    "question": "Ràng buộc logic là",
+    "choices": [
+      "A. Các mối liên kết giữa các thuộc tính biểu diễn bằng phụ thuộc hàm.",
+      "B. Mối liên kết một-một, một-nhiều và nhiều-nhiều..",
+      "C. Các mối liên kết giữa các thuộc tính biểu diễn bằng biểu thức toán học",
+      "D. Giữa một số thuộc tính có sự ràng buộc bằng các biểu thức toán học."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 139,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Một mô hình CSDL được coi là mô hình chuẩn hoá tốt, nếu........",
+    "choices": [
+      "A. Các thuộc tính không khoá phụ thuộc hàm vào khoá",
+      "B. Các thuộc tính không khoá phụ thuộc hàm đầy đủ vào khoá",
+      "C. Các thuộc tính khoá xác định duy nhất",
+      "D. Các thuộc tính không khoá không phụ thuộc bắc cầu vào khoá."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 140,
+    "question": "Khẳng định nào là phụ thuộc hàm",
+    "choices": [
+      "A. Họ và tên -> Số chứng minh thư",
+      "B. Họ và tên -> Địa chỉ",
+      "C. Họ và tên -> Số điện thoại nhà riêng",
+      "D. Số chứng minh thư -> Họ và tên"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 141,
+    "question": "ệ tiên đề Armstrong cho các phụ thuộc hàm gồm các quy tắc:",
+    "choices": [
+      "A. Phản xạ, hợp và tách.",
+      "B. Phản xạ, bắc cầu, hợp và tách.",
+      "C. Phản xạ, gia tăng, hợp và tách.",
+      "D. Phản xạ, gia tăng, bắc cầu ."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 142,
+    "question": "Khi thực hiện các phép toán trong một biểu thức quan hệ, thứ tự ưu tiên là:",
+    "choices": [
+      "A. Phép kết nối được ưu tiên hơn so với phép chọ và chiếu",
+      "B. Các phép toán một ngôi có thứ tự ưu tiên cao hơn so với phép toán hai ngôi.",
+      "C. Phụ thuộc vào vị trí của các phép toán",
+      "D. Phép kết nối được ưu tiên hơn so với phép hợp, phép giao"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 143,
+    "question": "Quy tắc gia tăng trong hệ tiên đề Armstrong :",
+    "choices": [
+      "A. Nếu A --> B => B --> A",
+      "B. Nếu A --> B => A --> BC",
+      "C. Nếu A --> B => BC --> A",
+      "D. Nếu A --> B => AC --> B"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 144,
+    "question": "Quy tắc bắc cầu trong hệ tiên đề Armstrong:",
+    "choices": [
+      "A. Nếu A --> B và B --> C => A --> C.",
+      "B. Nếu A --> B và B --> C => AC --> B.",
+      "C. Nếu A --> B và B --> C => AB --> C.",
+      "D. Nếu A --> B và B --> C => AC --> BC."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 145,
+    "question": "Nếu A --> B và A --> C thì suy ra:",
+    "choices": [
+      "A. AA --> C",
+      "B. A --> AB",
+      "C. A --> BC",
+      "D. AB --> BC"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 146,
+    "question": "Nếu A --> BC suy ra:",
+    "choices": [
+      "A. AC --> B và A --> CC.",
+      "B. A --> C.",
+      "C. A --> B và A --> C.",
+      "D. A --> B"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 147,
+    "question": "F = {A --> B, C --> X, BX --> Z}, khi đó:",
+    "choices": [
+      "A. AB --> C Thuộc F+",
+      "B. A --> Z Thuộc F+",
+      "C. CB --> Z Thuộc F+",
+      "D. AC --> Z Thuộc F+"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 148,
+    "question": "Tối ưu theo nghĩa biến đổi một biểu thức đại số quan hệ:",
+    "choices": [
+      "A. Cho cùng một kết quả với chi phí thời gian thực hiện và sử dụng bộ nhớ ít hơn.",
+      "B. Cho cùng một kết quả, không tổn thất thông tin.",
+      "C. Với chi phí thời gian ít hơn rất nhiều",
+      "D. Cho cùng một kết quả với chi phí bộ nhớ không nhiều"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 149,
+    "question": "Trong SQL, ngôn ngữ thao tác dữ liệu DML bao gồm các chức năng::",
+    "choices": [
+      "A. Truy vấn thông tin, thêm, sửa, xoá dữ liệu",
+      "B. Bảo mật và quyền truy nhập.",
+      "C. Tạo, sửa và xóa cấu trúc quan hệ.",
+      "D. Tạo, sửa và xóa cấu trúc và đảm bảo bảo mật và quyền truy nhập"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 150,
+    "question": "Phụ thuộc nào sau đây là phụ thuộc đầy đủ:",
+    "choices": [
+      "A. (Số thứ tự, mã lớp) --> Họ tên sinh viên.",
+      "B. (Số chứng minh thư, mã nhân viên) --> Quá trình công tác",
+      "C. (Số hoá đơn, mã khách hàng) --> Họ tên khách hàng",
+      "D. (Mã báo, mã khách hàng) --> Giá báo"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 151,
+    "question": "Giá trị các thành phần của khoá quy định:",
+    "choices": [
+      "A. Có thể nhận giá trị null",
+      "B. Không thể nhận giá trị null hay các giá trị không xác định.",
+      "C. Có thể nhận giá trị null hay các giá trị không xác định.",
+      "D. Không thể nhận giá trị null nhưng có thể nhận các giá trị không xác định"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 152,
+    "question": "Các thuộc tính khóa là :",
+    "choices": [
+      "A. Các thuộc tính không được chứa trong khóa",
+      "B. Các thuộc tính khoá",
+      "C. Các thuộc tính không khóa.",
+      "D. Các phần tử của khóa."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 153,
+    "question": "Mục tiêu của cơ sở dữ liệu là:",
+    "choices": [
+      "A. Tính toàn vẹn của dữ liệu",
+      "B. Phản ánh trung thực thế giới hiện thực dữ liệu",
+      "C. Tính độc lập của dữ liệu.",
+      "D. Tính phụ thuộc dữ liệu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 154,
+    "question": "Quá trình tách không làm tổn thất thông tin theo nghĩa:",
+    "choices": [
+      "A. Quan hệ gốc được khôi phục từ các quan hệ chiếu.bằng phép kết nối tự nhiên",
+      "B. Quan hệ gốc được khôi phục chính xác từ các quan hệ chiếu.",
+      "C. Quan hệ gốc được khôi phục từ các quan hệ chiếu.bằng phép kết nối",
+      "D. Quan hệ gốc được khôi phục từ các quan hệ chiếu.bằng phép chiếu và chọn"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 155,
+    "question": "φ [Ω1, Ω2 .. , Ωp ] là phép tách - kết nối tự nhiên của của lược đồ quan hệ nếu:",
+    "choices": [
+      "A. Kết nối tự nhiên các quan hệ chiếu.",
+      "B. φ [Ω1, Ω2 ,.. , Ωp] là một phép tách và kết nối các quan hệ chiếu.",
+      "C. φ [Ω1, Ω2 ,.. , Ωp] là một phép tách và kết nối tự nhiên các quan hệ chiếu.",
+      "D. Kết nối của các quan hệ chiếu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 156,
+    "question": "φ [Ω1, Ω2 ,.. , Ωp] là phép tách không tổn thất thông tin, nếu :",
+    "choices": [
+      "A. Kết quả kết nối tự nhiên các quan hệ chiếu chứa quan hệ gốc.",
+      "B. Kết quả kết nối tự nhiên các quan hệ chiếu chính là quan hệ gốc.",
+      "C. Kết quả kết nối tự nhiên các quan hệ chiếu được chứa trong quan hệ gốc.",
+      "D. Kết quả kết nối các quan hệ chiếu trên một số thuộc tính của quan hệ gốc."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 157,
+    "question": "Mục tiêu của phép tách lược đồ quan hệ là:",
+    "choices": [
+      "A. Nhằm thực hiện các phép lưu trữ dễ dàng.",
+      "B. Nhằm tối ưu hoá truy vấn",
+      "C. Nhằm loại bỏ các dị thường thông tin khi thực hiện các phép lưu trữ.",
+      "D. Nhằm thực hiện các phép tìm kiếm."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 158,
+    "question": "Cần thiết phải chuẩn hoá dữ liệu vì:",
+    "choices": [
+      "A. Giá trị khoá nhận giá trị null hay giá trị không xác định.",
+      "B. Khi thực hiện các phép lưu trữ trên các quan hệ chưa được chuẩn hoá thường xuất hiện các dị thường thông tin.",
+      "C. Khi thực hiện các phép tách - kết nối tự nhiiên các quan hệ",
+      "D. Khi thực hiện các phép tìm kiếm, xuất hiện các dị thường thông tin."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 159,
+    "question": "Dị thường thông tin là nguyên nhân:",
+    "choices": [
+      "A. Gây cản trở cho việc cập nhật, bổ sung thông tin",
+      "B. Gây cản trở cho việc tách kết nối tổn thất thông tin",
+      "C. Gây cản trở cho việc tìm kiếm, hỏi đáp thông tin.",
+      "D. Gây cản trở cho việc thực hiện các phép lưu trữ"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 160,
+    "question": "Mục tiêu của chuẩn hoá dữ liệu là:",
+    "choices": [
+      "A. Đảm bảo tính nhất quán dữ liệu.",
+      "B. Triệt tiêu mức cao nhất khả năng xuất hiện các dị thường thông tin.",
+      "C. Đảm bảo tính bảo mật dữ liệu",
+      "D. Đảm bảo cho việc lưu trữ dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 161,
+    "question": "Quá trình chuẩn hoá dữ liệu là quá trình:",
+    "choices": [
+      "A. Tách lược đồ quan hệ hạn chế thấp nhất tổn thất thông tin .",
+      "B. Thực hiện các phép tìm kiếm dữ liệu.",
+      "C. Chuyển đổi biểu diễn thông tin trong các dạng khác nhau",
+      "D. Tách lược đồ quan hệ không làm tổn thất thông tin ."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 162,
+    "question": "Cơ sở để chuẩn hoá dựa trên các khái niệm:",
+    "choices": [
+      "A. Bao đóng các phụ thuộc hàm",
+      "B. Phụ thuộc hàm",
+      "C. Các thuộc tính, bao đóng các thuộc tính.",
+      "D. Khoá và siêu khoá."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 163,
+    "question": "Một mô hình CSDL được xem là mô hình chuẩn hoá tốt, nếu:",
+    "choices": [
+      "A. Không xuất hiện dị thường thông tin.",
+      "B. Đảm bảo tính độc lập dữ liệu.",
+      "C. Mỗi một thuộc tính không khoá phụ thuộc hàm vào khoá.",
+      "D. Mỗi một thuộc tính được biểu diễn trong dạng duy nhất."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 164,
+    "question": "Quan hệ R được gọi là dạng chuẩn 1NF, khi và chỉ khi:",
+    "choices": [
+      "A. Một thuộc tính có nhiều giá trị khác nhau",
+      "B. Các thuộc tính chỉ chứa các giá trị nguyên tố.",
+      "C. Một quan hệ có nhiều hàng",
+      "D. Một quan hệ có nhiều cột."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 165,
+    "question": "Quan hệ 1NF không thể chấp nhận được trong quá trình tìm kiếm, vì :",
+    "choices": [
+      "A. Không đảm bảo tính toàn vẹn dữ liệu.",
+      "B. Khi thao tác các phép lưu trữ thường xuất hiện dị thường thông tin",
+      "C. Cấu trúc biểu diễn dữ liệu phức tạp.",
+      "D. Có quá nhiều phụ thuộc hàm trong nó"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 166,
+    "question": "Quan hệ R được gọi là dạng chuẩn 2NF, khi và chỉ khi :",
+    "choices": [
+      "A. 1NF và các thuộc tính không khoá phụ thuộc đầy đủ vào khoá.",
+      "B. 1NF và các thuộc tính không khoá phụ thuộc không đầy đủ vào khoá.",
+      "C. Tồn tại X Y F+ sao cho X là tập con của khóa và Y là thuộc tính không khóa.",
+      "D. 1NF và tồn tại các thuộc tính không khoá phụ thuộc đầy đủ vào khoá."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 167,
+    "question": "Quan hệ 2NF không thể chấp nhận được trong quá trình tìm kiếm, vì :",
+    "choices": [
+      "A. Không thể thưc hiện được các phép cập nhật",
+      "B. Bao đóng phụ thuộc hàm quá lớn",
+      "C. Có thể không thể chèn thêm thông tin",
+      "D. Không đảm bảo tính toàn vẹn dữ liệu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 168,
+    "question": "Có thể chèn thêm thông tin một loại cáp khi chưa được lắp đặt ?",
+    "choices": [
+      "A. Không thể được. vì dị thường thông tin.",
+      "B. Không thể được. vì giá trị khoá không xác định",
+      "C. Không thể được. vì mâu thuẫn thông tin.",
+      "D. Có thể chèn được."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 169,
+    "question": "Trong quan hệ dạng chuẩn 3NF:",
+    "choices": [
+      "A. Không tồn tại các thuộc tính không khoá phụ thuộc vào khoá",
+      "B. Không tồn tại các thuộc tính không khoá phụ thuộc đầy đủ vào khoá và sơ đồ bắc cầu.",
+      "C. Tồn tại các thuộc tính không khoá phụ thuộc vào khoá và sơ đồ bắc cầu.",
+      "D. Tồn tại các thuộc tính không khoá phụ thuộc vào khoá"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 170,
+    "question": "Quan hệ 3NF có thể chấp nhận được trong quá trình tìm kiếm, vì:",
+    "choices": [
+      "A. Thưc hiện được các phép cập nhật",
+      "B. Đảm bảo tính toàn vẹn dữ liệu",
+      "C. Bao đóng phụ thuộc hàm quá lớn",
+      "D. Không xuất hiện di thường thông tin khi thực hiện các phép lưu trữ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 171,
+    "question": "Quan hệ gồm các thuộc tính mã số, họ tên và địa chỉ ở dạng chuẩn nào ?:",
+    "choices": [
+      "A. Dạng chuẩn 3NF",
+      "B. Dạng chuẩn 2NF, không là 3NF",
+      "C. Dạng chuẩn 1NF, không là 2NF",
+      "D. Dạng chuẩn 2NF"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 172,
+    "question": "Một quan hệ dạng chuẩn 1NF có thể chuyển đổi về nhóm các quan hệ 3NF bằng cách:",
+    "choices": [
+      "A. Loại bỏ các phụ thuộc bắc cầu vào khoá.",
+      "B. Loại bỏ các phụ thuộc không đầy đủ vào khoá",
+      "C. Loại bỏ các phụ thuộc không đầy đủ vào khoá và bắc cầu vào khoá.",
+      "D. Loại bỏ các phụ thuộc đầy đủ vào khoá và bắc cầu vào khoá."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 173,
+    "question": "Quá trình chuyển quan hệ 1NF về 3NF là quá trình:",
+    "choices": [
+      "A. Loại bỏ dị thường thông tin và không tổn thất thông tin.",
+      "B. Loại bỏ dị thường thông tin và tổn thất thông tin.",
+      "C. Loại bỏ dị thường thông tin",
+      "D. Không tổn thất thông tin."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 174,
+    "question": "Ngôn ngữ thao tác dữ liệu là:",
+    "choices": [
+      "A. Một tập các ký hiệu biểu diễn dữ liệu",
+      "B. Một tập các quy tắc biểu diễn dữ liệu.",
+      "C. Một tập các phép toán dùng để thao tác trên các hệ cơ sở dữ liệu",
+      "D. Một tập các phép toán dùng để cập nhật, bổ sung trên các hệ cơ sở dữ liệu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 175,
+    "question": "Các toán hạng trong các phép toán là:",
+    "choices": [
+      "A. Các thuộc tính",
+      "B. Các biểu thức",
+      "C. Các bộ n_giá trị",
+      "D. Các quan hệ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 176,
+    "question": "Kết quả của các phép thao tác dữ liệu là:",
+    "choices": [
+      "A. Quan hệ",
+      "B. Tệp dữ liệu",
+      "C. Chuỗi dữ liệu.",
+      "D. Cơ sở dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 177,
+    "question": "Phép chèn thêm là phép toán:",
+    "choices": [
+      "A. Chèn vào CSDL một số thông tin về một đối tượng",
+      "B. Chèn vào CSDL các thuộc tính mới.",
+      "C. Chèn vào CSDL một số thông tin tuỳ ý",
+      "D. Chèn vào CSDL từ vùng đệm chứa các thông tin về một bản ghi cụ thể."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 178,
+    "question": "Phép xoá là phép toán:",
+    "choices": [
+      "A. Xoá một thuộc tính hay xoá một nhóm các thuộc tính.",
+      "B. Xoá một quan hệ hay xoá một nhóm các quan hệ",
+      "C. Xoá một hệ CSDL",
+      "D. Xoá một bộ hay xoá một nhóm các bộ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 179,
+    "question": "Phép sửa đổi là phép toán:",
+    "choices": [
+      "A. Sửa đổi giá trị của một bộ hay một nhóm các bộ.",
+      "B. Sửa đổi giá trị của một số thuộc tính.",
+      "C. Sửa đổi mô tả các thuộc tính.",
+      "D. Sửa đổi giá trị của một quan hệ hay một nhóm các quan hệ"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 180,
+    "question": "Phép chọn SELECT là phép toán:",
+    "choices": [
+      "A. Tạo một quan hệ mới từ quan hệ nguồn.",
+      "B. Tạo một quan hệ mới, thoả mãn một tân từ xác định.",
+      "C. Tạo một nhóm các phụ thuộc.",
+      "D. Tạo một quan hệ mới, các bộ được rút ra một cách duy nhất từ quan hệ nguồn"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 181,
+    "question": "Phép chiếu PROJECT là phép toán:",
+    "choices": [
+      "A. Tạo một quan hệ mới, các thuộc tính là các thuộc tính quan hệ nguồn",
+      "B. Tạo một quan hệ mới, các bộ của quan hệ nguồn bỏ đi những bộ trùng lặp",
+      "C. Tạo một quan hệ mới, thoả mãn một tân từ xác định.",
+      "D. Tạo một quan hệ mới, các thuộc tính được biến đổi từ quan hệ nguồn."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 182,
+    "question": "Phép kết nối JOIN là phép toán:",
+    "choices": [
+      "A. Tạo một quan hệ mới",
+      "B. Tạo một quan hệ mới, các thuộc tính là các thuộc tính quan hệ nguồn.",
+      "C. Tạo một quan hệ mới, thoả mãn một tân từ xác định.",
+      "D. Tạo một quan hệ mới, kêt nối nhiều quan hệ trên miền thuộc tính chung"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 183,
+    "question": "Kết nối bằng nhau các quan hệ theo thuộc tính là:",
+    "choices": [
+      "A. Thực hiện tích Đề Các và phép chọn",
+      "B. Thực hiện tích Đề Các và phép chiếu",
+      "C. Thực hiện phép chiếu và chia",
+      "D. Thực hiện phép chiếu và phép chọn"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 184,
+    "question": "Trong SQL, ngôn ngữ định nghĩa dữ liệu bao gồm các chức năng::",
+    "choices": [
+      "A. Tạo, sửa và xóa cấu trúc quan hệ. Bảo mật và quyền truy nhập.",
+      "B. Bảo mật và quyền truy nhập.",
+      "C. Tạo, sửa và xóa cấu trúc quan hệ. Thêm cột, sửa cột và xoá cột",
+      "D. Tạo, sửa và xóa các bộ quan hệ. Bảo mật và quyền truy nhập."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 185,
+    "question": "Trong SQL, ngôn ngữ thao tác dữ liệu DML bao gồm các chức năng::",
+    "choices": [
+      "A. Truy vấn thông tin, thêm, sửa, xoá dữ liệu",
+      "B. Bảo mật và quyền truy nhập.",
+      "C. Tạo, sửa và xóa cấu trúc quan hệ.",
+      "D. Tạo, sửa và xóa cấu trúc và đảm bảo bảo mật và quyền truy nhập."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 186,
+    "question": "Thứ tự đúng trong câu lệnh SELECT :",
+    "choices": [
+      "A. SELECT, FROM , GROUP BY HAVING, WHERE , ORDER BY",
+      "B. SELECT, FROM ,WHERE , GROUP BY HAVING , ORDER BY",
+      "C. SELECT, FROM, GROUP BY HAVING , ORDER BY",
+      "D. SELECT, FROM , GROUP BY HAVING , ORDER BY"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 187,
+    "question": "Các bước thực hiện đúng trong câu lệnh SELECT:",
+    "choices": [
+      "A. Tích Đề các, phép toán chọn, theo nhóm, sắp xếp và phép chiếu",
+      "B. Tích Đề các, phép toán chọn, theo nhóm, phép chiếu và sắp xếp",
+      "C. Phép toán chọn, tích Đề các, theo nhóm, sắp xếp và phép chiếu",
+      "D. Phép toán chọn, tích Đề các, theo nhóm, phép chiếu và sắp xếp"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 188,
+    "question": "Phép toán tập hợp trong mệnh đề WHERE bao gồm:",
+    "choices": [
+      "A. Các phép số học và các phép so sánh",
+      "B. Các phép đại số quan hệ",
+      "C. Các phép so sánh.",
+      "D. Biểu thức đại số"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 189,
+    "question": "Các phép toán gộp nhóm được sử dụng sau mệnh đề:",
+    "choices": [
+      "A. SELECT",
+      "B. WHERE",
+      "C. GROUP BY",
+      "D. FROM"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 190,
+    "question": "Phép chọn được thực hiện sau mệnh đề nào trong SELECT - FROM - WHERE",
+    "choices": [
+      "A. GROUP BY HAVING",
+      "B. SELECT",
+      "C. WHERE [d]—FROM"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 191,
+    "question": "Phép chiếu được thực hiện sau mệnh đề nào trong SELECT - FROM - WHERE :",
+    "choices": [
+      "A. FROM",
+      "B. SELECT",
+      "C. GROUP BY HAVING",
+      "D. WHERE"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 192,
+    "question": "Mệnh đề GROUP BY ... HAVING :",
+    "choices": [
+      "A. Phân hoạch các bộ của một quan hệ thành các nhóm riêng biệt",
+      "B. Áp dụng các phép toán gộp nhóm.",
+      "C. Phân hoạch các bộ của một quan hệ thành các nhóm riêng biệt và áp dụng các phép toán gộp cho các nhóm.",
+      "D. Tách các quan hệ thành các quan hệ con, không tổn thất thông tin"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 193,
+    "question": "Ngôn ngữ đinh nghĩa dữ liệu - DDL (Data Definition Language).",
+    "choices": [
+      "A. Được đặc tả bằng một ngôn ngữ dữ liệu",
+      "B. Được đặc tả bằng một ngôn ngữ, một phần của hệ quản trị cơ sở dữ liệu.",
+      "C. Được đặc tả bằng một phần của hệ quản trị cơ sở dữ liệu.",
+      "D. Được đặc tả bằng cách chương trùnh ứng dụng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 194,
+    "question": "Tối ưu hoá câu hỏi truy vấn dữ liệu là:",
+    "choices": [
+      "A. Quá trình biến đổi câu hỏi về dạng quan hệ",
+      "B. Quá trình biến đổi câu hỏi về dạng đơn giản",
+      "C. Quá trình biến đổi câu hỏi về dạng biểu thức quan hệ.",
+      "D. Quá trình biến đổi câu hỏi sao cho chi phí thời gian thực hiện là ít nhất"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 195,
+    "question": "Sự cần thiết phải tối ưu hoá câu hỏi:",
+    "choices": [
+      "A. Nâng cao hiệu suất các phiên làm việc của người sử dụng.",
+      "B. Tìm kiếm và truy xuất dữ liệu tại các thiết bị đầu cuối.",
+      "C. Chia sẻ thông tin nhiều người sử dụng",
+      "D. Tối ưu về không gian lưu trữ."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 196,
+    "question": "Tối ưu theo nghĩa biến đổi một biểu thức đại số quan hệ:",
+    "choices": [
+      "A. Cho cùng một kết quả với chi phí thời gian thực hiện và sử dụng bộ nhớ ít hơn.",
+      "B. Cho cùng một kết quả, không tổn thất thông tin.",
+      "C. Với chi phí thời gian ít hơn rất nhiều",
+      "D. Cho cùng một kết quả với chi phí bộ nhớ không nhiều"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 197,
+    "question": "Tối ưu hoá câu hỏi bằng cách :",
+    "choices": [
+      "A. Thực hiện các phép chiếu và chọn, tiếp sau mới thực hiện phép kết nối.",
+      "B. Thực hiện các phép toán đại số quan hệ.",
+      "C. Bỏ đi các phép kết nối hoặc tích Đề các có chi phí lớn",
+      "D. Thực hiện biến đổi không làm tổn thất thông tin."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 198,
+    "question": "Nguyên tắc đánh giá tối ưu hóa biểu thức quan hệ:",
+    "choices": [
+      "A. Thực hiện các phép kết nối bằng nhau",
+      "B. Ưu tiên thực hiện các phép chiếu và chọn",
+      "C. Thực hiện phép tích Đề các",
+      "D. Nhóm các phép tích và chiếu liên tiép thành một phép toán duy nhất."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 199,
+    "question": "Hai biểu thức E1 và E2 tương đương với nhau, ký hiệu là E1 = E2 , nếu:",
+    "choices": [
+      "A. Các quan hệ giống nhau trong biểu thức.",
+      "B. Chúng biểu diễn cùng một ánh xạ.",
+      "C. Các kết quả giống nhau.",
+      "D. Các quan hệ trong các biểu thức cùng miền xác định"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 200,
+    "question": "Khi thực hiện các phép toán trong một biểu thức quan hệ, thứ tự ưu tiên là :",
+    "choices": [
+      "A. Phép kết nối được ưu tiên hơn so với phép chọ và chiếu",
+      "B. Các phép toán một ngôi có thứ tự ưu tiên cao hơn so với phép toán hai ngôi.",
+      "C. Phụ thuộc vào vị trí của các phép toán",
+      "D. Phép kết nối được ưu tiên hơn so với phép hợp, phép giao"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 201,
+    "question": "Một câu hỏi của người sử dụng:",
+    "choices": [
+      "A. Được biểu diễn bằng một đại số quan hệ",
+      "B. Được biểu diễn bằng nhiều cách khác nhau",
+      "C. Được biểu diễn bằng một quan hệ",
+      "D. Được biểu diễn bằng một biểu thức quan hệ"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 202,
+    "question": "Cơ sở dữ liệu cần thiết phải bảo vệ, vì:",
+    "choices": [
+      "A. Rất nhiều loại dữ liệu được tải về giữ trên các máy cục bộ để khai thác.",
+      "B. Tài nguyên chung, nhiều người cùng sử dụng",
+      "C. Một bộ sưu tập rất lớn về các loại dữ liệu tác nghiệp",
+      "D. Truy xuất vào cơ sở dữ liệu bằng nhiều ngôn ngữ thao tác dữ liệu khác nhau."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 203,
+    "question": "Bảo vệ an toàn cơ sở dữ liệu có thể là:",
+    "choices": [
+      "A. Không cho phép ghi đè dữ liệu.",
+      "B. Không cho phép cập nhật dữ liệu.",
+      "C. Không cho phép đọc, sửa đổi, ghi, xoá dữ liệu.....",
+      "D. Không cho phép sửa đổi dữ liệu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 204,
+    "question": "Mức độ an toàn hệ thống cơ sở dữ liệu:",
+    "choices": [
+      "A. Có thể được phép thực hiện các câu hỏi truy vấn.",
+      "B. Người quản trị cơ sở dữ liệu cấp phép truy nhập cho bất kỳ người sử dụng.",
+      "C. Phụ thuộc vào người sử dụng, không cần sự cấp phép của người quản trị",
+      "D. Người quản trị cấp phép truy nhập cho người sử dụng khi có nhu cầu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 205,
+    "question": "\"An toàn\" dữ liệu có nghĩa là cơ sở dữ liệu....",
+    "choices": [
+      "A. Cần phải được bảo vệ chống truy nhập trái phép.",
+      "B. Chống sửa đổi hay phá hoại.",
+      "C. Cần thiết phải quản trị, bảo vệ tập trung.",
+      "D. Chống vi phạm có chủ định"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 206,
+    "question": "Để bảo vệ cơ sở dữ liệu, phải thực hiện biện pháp an toàn :",
+    "choices": [
+      "A. Mạng",
+      "B. Hệ thống, người quản trị cấp phép, an toàn mạng.....",
+      "C. An toàn hệ thống điều hành",
+      "D. Người quản trị cơ sở dữ liệu cấp phép truy nhập."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 207,
+    "question": "Một số biện pháp bảo vệ cơ sở dữ liệu :",
+    "choices": [
+      "A. Người quản trị cơ sở dữ liệu cấp phép truy nhập.",
+      "B. Nhận diện người sử dụng, bảo vệ mức vật lý, kiểm tra truy nhập....",
+      "C. Kiểm tra Password",
+      "D. Kiểm tra truy nhập người sử dụng."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 208,
+    "question": "An toàn mức độ mạng.",
+    "choices": [
+      "A. Không cho phép truy cập từ xa",
+      "B. Bảo vệ thông tin trên đường truyền.",
+      "C. Cho phép truy cập từ xa.",
+      "D. Cho phép truy cập từ xa, có kiểm soát"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 209,
+    "question": "Mức độ nhận diện người sử dụng:",
+    "choices": [
+      "A. Xác định cho hệ thống những thao tác",
+      "B. Cho phép người sử dụng truy nhập",
+      "C. Nếu được phép của người quản trị CSDL.",
+      "D. Người quản trị cung cấp phương tiện cho người sử dụng để hệ thống nhận biết"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 210,
+    "question": "Mức bảo vệ mức vật lý:",
+    "choices": [
+      "A. Nhận diện bằng cách kiểm tra",
+      "B. Nhận diện qua nhân viên bảo vệ, hoặc các quy định về hành chính...",
+      "C. Nhận diện bằng các phương pháp trao quyền.",
+      "D. Nhận diện bằng mặt khẩu."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 211,
+    "question": "Dạng cấp quyền truy xuất trong SQL:",
+    "choices": [
+      "A. GRANT ON TO .",
+      "B. GRANT ON TO .",
+      "C. GRANT ON TO .",
+      "D. GRANT READ ON R"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 212,
+    "question": "Dạng thu hồi quyền truy nhập:",
+    "choices": [
+      "A. REVOKE ON FROM",
+      "B. REVOKE ON FROM",
+      "C. REVOKE ON FROM",
+      "D. REVOKE SELECT ON FROM"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 213,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về đối tượng nghiên cứu CSDL :",
+    "choices": [
+      "A. CSDL bao gồm là các thực thể",
+      "B. CSDL bao gồm là các thực thể và mối quan hệ giữa các thực thể.",
+      "C. Trong CSDL quan hệ có nhiều cách biểu diễn dữ liệu.",
+      "D. Mối quan hệ giữa các thực thể cũng là một loại thực thể."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 214,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về ưu điểm tổ chức lưu trữ dữ liệu theo lý thuyết cơ sở dữ liệu:",
+    "choices": [
+      "A. Tốn kém, lãng phí bộ nhớ và các thiết bị lưu trữ.",
+      "B. Có thể chia sẻ tài nguyên thông tin. và giảm dư thừa trong lưu trữ",
+      "C. Nhiều thuộc tính được mô tả và lưu trữ nhiều lần độc lập với nhau.",
+      "D. Giảm dư thừa dữ liệu trong lưu trữ"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 215,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về tính nhất quán và tính toàn vẹn của dữ liệu :",
+    "choices": [
+      "A. Tránh dư thừa dữ liệu trong lưu trữ",
+      "B. Một thuộc tính được mô tả lặp lại nhiều lần.",
+      "C. Tiết kiệm bộ nhớ và các thiết bị lưu trữ.",
+      "D. Tránh được dị thường thông tin"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 216,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Sự không nhất quán dữ liệu trong lưu trữ làm cho dữ liệu mất đi tính toàn vẹn.",
+      "B. Tổ chức lưu trữ theo lý thuyết cơ sở dữ liệu, các thuộc tính có thể lặp lại.",
+      "C. Tính toàn vẹn dữ liệu đảm bảo dữ liệu luôn luôn đúng.",
+      "D. Tính nhất quán dữ liệu đảm bảo cho sự cập nhật, bổ sung dễ dàng"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 217,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về biện pháp an toàn dữ liệu:",
+    "choices": [
+      "A. Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ",
+      "B. Dễ dàng truy xuất, thao tác trên các cơ sở dữ liệu",
+      "C. Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào...",
+      "D. Người sử dụng có thể kiểm tra, kiểm soát các quyền truy nhập của họ."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 218,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Mô hình kiến trúc 3 lớp dữ liệu là mô hình lưu trữ cơ sở dữ liệu.",
+      "B. Mô hình kiến trúc 3 lớp dữ liệu đảm bảo tính nhất quán và toàn ven dữ liệu.",
+      "C. Mô hình kiến trúc 3 lớp dữ liệu đảm bảo tính bảo mật và an toàn dữ liệu.",
+      "D. Mô hình kiến trúc 3 lớp đảm bảo tính độc lập dữ liệu."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 219,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Nhiều người sử dụng có cách nhìn chung một khung nhìn dữ liệu.",
+      "B. Có duy nhất một cách nhìn dữ liệu ở mô hình ngoài",
+      "C. Một người sử dụng có một và chỉ một mô hình ngoài.",
+      "D. Mô hình ngoài là nội dung thông tin của một phần dữ liệu của người sử dụng"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 220,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Mô hình quan niệm là cách nhìn dữ liệu của người sử dụng.",
+      "B. Chỉ có nhiều cách nhìn dữ liệu ở mô hình quan niệm.",
+      "C. Biểu diễn toàn bộ thông tin trong mô hình quan niệm là duy nhất.",
+      "D. Mô hình dữ liệu là nội dung thông tin của người sử dụng."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 221,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Mô hình trong là mô hình dữ liệu",
+      "B. Chỉ có duy nhất một cách biểu diễn CSDL dưới dạng lưu trữ vật lý.",
+      "C. Mô hình dữ liệu là nội dung thông tin của người sử dụng.",
+      "D. Biểu diễn cơ sở dữ liệu trìu tượng ở mức thấp nhất."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 222,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Cấu trúc lưu trữ và các hệ chương trình ứng dụng trên độc lập với nhau.",
+      "B. Người sử dụng khi thao tác trên các cơ sở dữ liệu có thể làm thay đổi cấu trúc lưu trữ dữ liệu và chiến lược truy nhập cơ sở dữ liệu.",
+      "C. Mục tiêu của các hệ CSDL là: tính bất biến cuả các hệ ứng dụng đối với sự thay đổi trong cấu trúc lưu trữ và chiến lược truy nhập dữ liệu.",
+      "D. Dữ liệu được biểu diễn, mô tả nhiều cách khác nhau."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 223,
+    "question": "Chọn một khẳng định nào sau đây là đúng: nhất:",
+    "choices": [
+      "A. Ràng buộc dữ liệu là các khái niệm về phụ thuộc hàm.",
+      "B. Ràng buộc dữ liệu bảo đảm tính độc lập",
+      "C. Các ràng buộc là tập các quy tắc, quy định biểu diễn dữ liệu trong cơ sở dữ liệu.",
+      "D. Giữa các thực thể dữ liệu tồn tại các mối quan hệ, ràng buộc lẫn nhau."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 224,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về khái niệm mô hình cơ sở dữ liệu Client-Sserver:",
+    "choices": [
+      "A. Các máy khách chia sẻ xử lý thông tin.",
+      "B. Khi máy khách thực hiện các ứng dụng, nó gửi yêu cầu về máy chủ được kết nối với cơ sở dữ liệu, máy chủ xử lý và gửi trả lại kết quả về máy khách.",
+      "C. Máy chủ và máy khách có quyền truy xuất cơ sở dữ liệu",
+      "D. Máy khách truy xuất cơ sở dữ liệu trên máy chủ qua môi trường mạng."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 225,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về đặc trưng của một mô hình dữ liệu là :",
+    "choices": [
+      "A. Sử dụng ngôn ngữ bậc cao để biểu diễn các phép toán trên cơ sở dữ liệu.",
+      "B. Mô hình có cấu trúc đơn giản, có cách nhìn trong suốt đối với người sử dụng.",
+      "C. Phải kiểm tra tính dư thừa.",
+      "D. Có tính ổn định khi thiết kế, đơn giản, dễ thao tác. Có tính đối xứng và có cơ sở lý thuyết vững chắc."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 226,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. CSDL là tập bảng và mỗi bảng là một cấu trúc hai chiều",
+      "B. Dữ liệu được người sử dụng nhìn dưới dạng một quan hệ toán học và các phép toán thao tác dữ liệu được xây dựng trên các cấu trúc quan hệ toán học.",
+      "C. Dữ liệu được người sử dụng nhìn dưới dạng một cấu trúc hình cây.",
+      "D. Gồm nhiều tệp dữ liệu có cấu trúc xác định."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 227,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về ngôn ngữ dữ liệu thao tác trên quan hệ:",
+    "choices": [
+      "A. Ngôn ngữ con dữ liệu biếu diễn dữ liệu một cách duy nhất.",
+      "B. Là tập các phép toán thao tác trên các dữ liệu dưới dạng quan hệ",
+      "C. Ngôn ngữ con dữ liệu liên kết các thực thể dữ liệu quan hệ.",
+      "D. Ngôn ngữ con dữ liệu gồm nhóm các phép toán tìm kiếm và cập nhật, lưu trữ, thao tác trên các quan hệ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 228,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Các câu hỏi tìm kiếm không đối xứng.",
+      "B. Các phép toán lưu trữ có khả năng xử lý tập hợp theo lô, kết quả là quan hệ.",
+      "C. Kết quả của các phép tìm kiếm là một quan hệ.",
+      "D. Các phép lưu trữ làm mất đi sự nhất quán và tính toàn vẹn dữ liệu."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 229,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về mối liên kết giẵ các thực thể trong mô hình thực thể quan hệ :",
+    "choices": [
+      "A. Mối quan hệ giữa các thực thể chỉ có thể là một -một hoặc một - nhiều",
+      "B. Mối quan hệ giữa các thực thể có thể là một -một, một - nhiều và nhiều - nhiều.",
+      "C. Trong lược đồ quan hệ, cấu trúc dữ liệu nhiều - nhiều không thể chuyển về dạng một - nhiều",
+      "D. Thực thể là những đối tượng dữ liệu cơ bản chứa nội dung các thông tin"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 230,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các bước triển khai mô hình thực thể quan hệ:",
+    "choices": [
+      "A. Xác định nội dung, yêu cầu của các thực thể",
+      "B. Phân tích yêu cầu, xác định các thực thể và các mối lien kết, tích hợp yêu cầu, chuyển đổi về các quan hệ, chuẩn hoá dữ liệu và thiết kế vật lý.",
+      "C. Mô tả thông tin về các đối tượng và xác định mối quan hệ giữa các đối tượng cần thiết kế.",
+      "D. Phân tích yêu cầu, xác định các thực thể, chuẩn hoá dữ liệu và thiết kế vật lý."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 231,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất",
+    "choices": [
+      "A. Chuẩn hoá dữ liệu dựa trên các khái niệm phụ thuộc hàm.",
+      "B. Phụ thuộc hàm mô tả các phương pháp biểu diễn dữ liệu",
+      "C. Phụ thuộc hàm mô tả các ràng buộc trong cơ sở dữ liệu.",
+      "D. Các phương pháp chuẩn hoá dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 232,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. X xác định Y nếu các giá trị của X xác định các giá trị của Y.",
+      "B. X xác định Y nếu r và s trùng nhau trên X thì cũng trùng nhau trên Y.",
+      "C. X Y, (r, s Thuộc R ) (r(X) = s(Y)) thì suy ra r(X) = s(Y),",
+      "D. ( r, s Thuộc R ) ((a Thuộc X) (r(a) = s(a)) thì suy ra (b Thuộc Y) (r(b) = s(b)))."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 233,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các phụ thuộc hàm phản xạ:",
+    "choices": [
+      "A. Phụ thuộc mà vế trái được chứa trong vế phải.",
+      "B. Với mọi B là Con của A => A --> B.",
+      "C. Phụ thuộc mà vế phải được chứa trong vế trái.",
+      "D. Phụ thuộc vào Ω , không phụ thuộc vào F."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 234,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Số điện thoại --> Mã vùng là phụ thuộc phản xạ.",
+      "B. Số điện thoại --> Họ tên thuê bao là phụ thuộc phản xạ.",
+      "C. (Số thứ tự, Mã lớp) --> Mã lớp là phụ thuộc phản xạ.",
+      "D. Số chứng minh thư --> Họ tên là phụ thuộc phản xạ."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 235,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các phụ thuộc hàm gia tăng:",
+    "choices": [
+      "A. Có thể mở rộng vế trái hoặc cả hai vế phụ thuộc hàm cùng một thuộc tính.",
+      "B. A --> B => A --> BC.",
+      "C. A --> B => AC -> B và A --> BC.",
+      "D. Có thể mở rộng vế trái, không mở rộng vế phải"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 236,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về phụ thuộc bắc cầu :",
+    "choices": [
+      "A. Nếu A --> B và B --> C thì suy ra AC --> BC.",
+      "B. Nếu A --> B và B --> C suy ra A --> C.",
+      "C. Nếu một thuộc tính xác định thuộc tính thứ hai, hoặc xác định thuộc tính thứ ba, khi đó thuộc tính thứ nhất xác định thuộc tính thứ 3.",
+      "D. Nếu một thuộc tính xác định thuộc tính thứ hai thì nó xác định thuộc tính thứ ba"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 237,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. A --> B và BC--> Z => AC --> Z.",
+      "B. AC --> B và B --> Z => AC --> Z",
+      "C. A --> B và B --> Z => AC --> Z.",
+      "D. A --> BC và BC --> Z => AC --> Z"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 238,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Tên thuê bao --> Số điện thoại thuê bao",
+      "B. A --> B và A --> C => A --> BC.",
+      "C. A --> B và A --> C => B --> BC.",
+      "D. AA --> AB và AA --> C, suy ra A --> BC."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 239,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất",
+    "choices": [
+      "A. Thuộc tính vế phải sẽ xác định các thành phần trong vế trái",
+      "B. Thuộc tính vế trái sẽ xác định các thành phần trong vế phải.",
+      "C. Thuộc tính vế trái có mặt trong vế phải.",
+      "D. Thuộc tính vế trái sẽ xác định các thành phần trong vế phải"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 240,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các phụ thuộc đầy đủ:",
+    "choices": [
+      "A. Các thuộc tính vế phải không xác định vế trái.",
+      "B. Các thuộc tính vế trái không xác định các thuộc tính thuộc vế phải.",
+      "C. Các thuộc tính vế trái xác định vế phải.",
+      "D. Các thuộc tính vế trái không xác định vế phải."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 241,
+    "question": "Phụ thuộc nào sau đây là phụ thuộc đầy đủ:",
+    "choices": [
+      "A. (Mã nhân viên, tên nhân viên) xác định đơn vị công tác.",
+      "B. (Số thứ tự, đơn vị) xác định ưôs thứ tự trong bảng lương.",
+      "C. Mã nhân viên xác định quá trình công tác nhân viêb đó",
+      "D. Số thứ tự xác định tiền lương của một nhân viên"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 242,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về bao đóng các thuộc tính:",
+    "choices": [
+      "A. Hợp tất cả vế phải của các phụ thuộc hàm",
+      "B. Bao đóng của X ứng với tập F là hợp của vế trái của các phụ thuộc hàm",
+      "C. Bao đóng của X ứng với tập F là hợp của vế phải của các phụ thuộc hàm",
+      "D. Thông tin về đối tượng"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 243,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về tập tương đương:",
+    "choices": [
+      "A. Tập G là tập con của F.",
+      "B. Các phụ thuộc của G là các phụ thuộc của F",
+      "C. Các phụ thuộc của F được suy dẫn logic từ G và các phụ thuộc của G được suy dẫn logic từ F",
+      "D. Các phụ thuộc của F cũng là các phụ thuộc của G và ngược lại."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 244,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về thuộc tính dư thừa :",
+    "choices": [
+      "A. A1A2 --> B, A1 dư thừa khi A2 --> B",
+      "B. A1A2 --> B, A1 dư thừa khi A1A2 --> B phụ thuộc đầy đủ",
+      "C. A1A2 --> B, A1 dư thừa khi A2 --> B phụ thuộc đầy đủ",
+      "D. A1A2 --> B, A1 dư thừa khi A2 không xác định B"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 245,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất với F={X -->Z,XY--> WP,XY-- > ZWQ, XZ --> R}",
+    "choices": [
+      "A. Vế trái của X --> Z có chứa thuộc tính dư thừa.",
+      "B. Vế trái của XY --> WP có chứa thuộc tính dư thừa.",
+      "C. Vế trái của XZ --> R có chứa thuộc tính dư thừa.",
+      "D. Vế trái của XY --> WP có chứa thuộc tính dư thừa."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 246,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Phụ thuộc có vế trái dư thừa là phụ thuộc bắc cầu",
+      "B. Phụ thuộc dư thừa có thể là phụ thuộc có vế trái dư thừa.",
+      "C. Phụ thuộc có vế trái dư thừa là phụ thuộc đầy đủ",
+      "D. Phụ thuộc dư thừa là phụ thuộc có vế trái dư thừa."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 247,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về khoá của lược đồ quan hệ:",
+    "choices": [
+      "A. Giá trị của mỗi thuộc tính có thể xác định duy nhất giá trị các thuộc tính khác.",
+      "B. Khoá gồm nhiều thuộc tính có khả năng biểu diễn các thuộc khác",
+      "C. Giá trị của một hay nhiều thuộc tính có thể xác định duy nhất giá trị các thuộc tính khác kể cả giá trị null.",
+      "D. Khoá là một thuộc tính hay một tập các thuộc tính có khả năng biểu diễn duy nhất các thuộc tính còn lại."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 248,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. X là khóa nếu: X+ = Ω và (X - A)+ = Ω",
+      "B. Các thuộc tính không khoá phụ thuộc đầy đủ vào khóa.",
+      "C. Mỗi một giá trị của khoá xác định các giá trị của các thuộc tính không khoá.",
+      "D. Giá trị các khoá có thể trùng nhau."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 249,
+    "question": "F:={AB --> C,D --> EG,C--> A,BE --> C, BC --> D, CG --> BD,ACD --> B, CE --> AG}",
+    "choices": [
+      "A. EB, CE, BC không là khóa của lược đồ quan hệ",
+      "B. EC, CE, BC khóa của lược đồ quan hệ",
+      "C. AB, CG, CD không là khóa của lược đồ quan hệ",
+      "D. AB, CG, CD khóa của lược đồ quan hệ"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 250,
+    "question": "Ω ={A, B, C, D, E, G }, F = {B --> C, C --> B, A --> GD}, khoá quan hệ là:",
+    "choices": [
+      "A. ACE",
+      "B. ABC",
+      "C. AC",
+      "D. AB."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 251,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Chuẩn hoá dữ liệu là quá trình thực hiện các phép lưu trữ",
+      "B. Dữ liệu lưu trữ trong CSDL phản ảnh tính tính toàn vẹn dữ liệu.",
+      "C. Chuẩn hoá dữ liệu là quá trình tách quan hệ không làm tổn thất thông tin.",
+      "D. Quan hệ gốc được chứa trong quan hệ kết nối tự nhiên của các quan hệ chiếu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 252,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi tách quan hệ:",
+    "choices": [
+      "A. Đảm bảo tính toàn vẹn dữ liệu",
+      "B. Đảm bảo tính độc lập dữ liệu.",
+      "C. Làm tổn thất thông tin",
+      "D. Không làm tổn thất thông tin"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 253,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi tách - kết nối không tổn thất thông tin:",
+    "choices": [
+      "A. Quan hệ R được khôi phục từ phép kết nối tự nhiên các quan hệ chiếu",
+      "B. Thông tin của R có thể nhận được từ các quan hệ chiếu ứng với phép tách j .",
+      "C. Thông tin của R có thể nhận được từ các quan hệ khác",
+      "D. Quan hệ R được khôi phục từ phép kết nối các quan hệ chiếu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 254,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất: khi nói về mục tiêu :",
+    "choices": [
+      "A. Tách quan hệ là thực hiện tối ưu truy vấn, tìm kiếm.",
+      "B. Tách quan hệ là thực hiện tối ưu lưu trữ, tiết kiệm bộ nhớ.",
+      "C. Tách quan hệ là nhằm đảm bảo tính độc lập dữ liệu.",
+      "D. Tách quan hệ là làm giảm nhẹ tính toán"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 255,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Khi thực hiện phép tách, quan hệ gốc bị tổn thất.",
+      "B. Khi thực hiện phép tách, quan hệ gốc có thể bị tổn thất.",
+      "C. Khi thực hiện phép tách, quan hệ gốc luôn luôn tổn thất",
+      "D. Khi thực hiện phép tách, quan hệ gốc không tổn thất."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 256,
+    "question": "Ω :={A,B, C,D, E, F}, phép tách Ω1:={A, B, D, E}, Ω3:={B, C, E, F}, Ω2:={A, C, D, F} và F:={A --> B, F --> E}.",
+    "choices": [
+      "A. Không tồn tại hàng chứa các giá trị a",
+      "B. Tồn tại ít nhất 1hàng chứa các giá trị a",
+      "C. Phép tách không tổn thất thông tin.",
+      "D. Phép tách tổn thất thông tin."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 257,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Khi thực hiện các phép lưu trữ trên các quan hệ chưa được chuẩn hoá thường xuất hiện dị thường thông tin.",
+      "B. Dữ liệu trong các quan hệ không đảm bảo tính toàn vẹn",
+      "C. Trong dữ liệu lưu trữ luôn luôn có sự dư thừa, không nhất quán dữ liệu",
+      "D. Dị thường thông tin là thường xuất hiện khi thực hiện truy vấn dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 258,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Chuẩn hoá là quá trình loại bỏ dị thường thông tin và không tổn thất thông tin.",
+      "B. Chuẩn hoá là quá trình tách dữ liệu không làm tổn thất thông tin.",
+      "C. Chuẩn hoá là quá trình tách lược đồ quan hệ về các lược đồ quan hệ chuẩn cao và không làm tổn thất thông tin.",
+      "D. Chuẩn hoá là quá trình loại bỏ dị thường thông tin"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 259,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Quan hệ gồm: Mã báo, tên báo, giá báo và mã khách đặt mua là quan hệ 2NF",
+      "B. Quan hệ gồm: Mã nhân viên, tên, địa chỉ là quan hệ 2NF",
+      "C. Quan hệ gồm: Mã hoá đơn, mã khách, mã mặt hàng là quan hệ 2NF",
+      "D. Quan hệ gồm: Mã khách, tên khách và mã báo, tên báo là quan hệ 2NF"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 260,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Quan hệ 1NF có thể chứa các thuộc tính khoá không phụ thuộc vào khoá",
+      "B. Quan hệ 1NF chứa các thuộc tính không khoá phụ thuộc vào khoá .",
+      "C. Quan hệ 1NF chứa các thuộc tính không khoá phụ thuộc đầy đủ vào khoá .",
+      "D. Quan hệ 1NF không chứa các thuộc tính không khoá phụ thuộc vào khoá"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 261,
+    "question": "Cho Ω = {A, B, C} và F = {A --> C, A --> B}.",
+    "choices": [
+      "A. Không tồn tại các thuộc tính không khoá.",
+      "B. {A, C}, {B, E} là khoá của quan hệ trên.",
+      "C. Quan hệ trên có dạng chuẩn không 2NF.",
+      "D. Tồn tại các thuộc tính không khoá."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 262,
+    "question": "Trong quan hệ 2NF, cấm tất cả các phụ thuộc không đầy đủ :",
+    "choices": [
+      "A. Trong quan hệ 2NF, cấm tất cả các phụ thuộc không đầy đủ vào khoá.",
+      "B. Trong quan hệ 2NF, cấm tất cả các phụ thuộc đầy đủ vào khoá.",
+      "C. Trong quan hệ 2NF, các thuộc tính khoá phụ thuộc vào các tập con của khoá.",
+      "D. Trong quan hệ 2NF, các thuộc tính không khoá phụ thuộc vào khoá."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 263,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Trong quan hệ 3NF, các thuộc tính không khoá bằng rỗng.",
+      "B. Trong quan hệ 3NF, cấm các thuộc tính không khoá phụ thuộc vào thuộc tính có bao đóng khác Ω.",
+      "C. Trong quan hệ 3NF, cấm thuộc tính không khoá phụ thuộc vào các thuộc tính có bao đóng bằng Ω.",
+      "D. Trong quan hệ 3NF, các thuộc tính không khoá phụ thuộc hàm vào thuộc tính có bao đóng khác Ω."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 264,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi khảo sát quan hệ gồm các thuộc tính: Mã cáp, tên cáp, giá, mã nước sản xuất,nước sản xuất:",
+    "choices": [
+      "A. Là quan hệ 2NF và không chứa các phụ thuộc bắc cầu",
+      "B. Là quan hệ 3NF, không phải là quan hệ 2NF",
+      "C. Là quan hệ 3NF",
+      "D. Tồn tại phụ thuộc mà vế phải và trái không phải là thuộc tính khoá."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 265,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Tách một quan hệ không 3NF thành nhiều quan hệ 3NF, tổn thất thông tin.",
+      "B. Từ một quan hệ 2NF tách thành nhiều quan hệ 3NF",
+      "C. Tách một quan hệ thành nhiều quan hệ 3NF, không mất thông tin.",
+      "D. Từ một quan hệ 2NF tách thành nhiều quan hệ 3NF, không làm mất thông tin."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 266,
+    "question": "Xét quan hệ Ω = {A, B, C, D, E, G, H} và F = {C --> AB, D --> E, B --> G}.",
+    "choices": [
+      "A. Khoá quan hệ là {B, C, A}.",
+      "B. Quan hệ có dạng chuẩn 3NF",
+      "C. Khoá quan hệ là {H, C, D}.",
+      "D. Tất cả đều sai"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 267,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. CREATE TABLE mô tả các thuộc tính.",
+      "B. CREATE TABLE mô tả quan hệ và các thuộc tính.",
+      "C. CREATE TABLE mô tả quan hệ",
+      "D. CREATE TABLE mô tả các phụ thuộc hàm."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 268,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về phép UNION:",
+    "choices": [
+      "A. Thuộc tính của quan hệ hợp là hợp các thuộc tính của các quan hệ nguồn",
+      "B. Các bộ của quan hệ hợp là hợp các bộ của các quan hệ nguồn",
+      "C. Hợp của 2 quan hệ khả hợp là một quan hệ khả hợp với các quan hệ nguồn.",
+      "D. Hợp của 2 quan hệ là một quan hệ khả hợp với các quan hệ nguồn."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 269,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về phép giao:",
+    "choices": [
+      "A. Thuộc tính của quan hệ giao là giao các thuộc tính của các quan hệ nguồn",
+      "B. Giao của các quan hệ là một quan hệ",
+      "C. Các bộ của quan hệ giao là giao các bộ của các quan hệ nguồn",
+      "D. Giao của các quan hệ khả hợp là một quan hệ khả hợp"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 270,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về phép trừ:",
+    "choices": [
+      "A. Hiệu của các quan hệ cũng là quan hệ",
+      "B. Các bộ quan hệ kết quả là các bộ của các quan hệ nguồn.",
+      "C. Các quan hệ tham gia phép trừ không cần phải khả hợp.",
+      "D. Hiệu của các quan hệ khả hợp cũng là quan hệ khả hợp."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 271,
+    "question": "Câu hỏi truy vấn có thể biểu diễn bằng:",
+    "choices": [
+      "A. Các phép toán đại số quan hệ và cây quan hệ.",
+      "B. Các phép toán đại số quan hệ hoặc cây quan hệ.",
+      "C. Các phép toán đại số quan hệ,",
+      "D. Cây đại số quan hệ."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 272,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nối về ngôn ngữ con dữ liệu SQL:",
+    "choices": [
+      "A. Được xây dựng trên cơ sở đại số quan hệ và các phép toán quan hệ.",
+      "B. Là một ngôn ngữ lập trình độc lập",
+      "C. Là ngôn ngữ con dữ liệu cho tất cả các kiểu CSDL",
+      "D. Là một ngôn ngữ lập trình"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 273,
+    "question": "Các phép toán trong tổ hợp SELECT- FROM - WHERE",
+    "choices": [
+      "A. Tich các quan hệ trong mệnh đề FROM, chọn theo biểu thức sau WHERE và chiếu trên các thuộc tính sau mệnh đề SELECT.",
+      "B. Tich các quan hệ trong mệnh đề FROM, chiếu trong WHERE và chọn trên các thuộc tính sau mệnh đề SELECT.",
+      "C. Kết nối các quan hệ sau mệnh đề FROM, chiếucác thuộc tính sau SELECT.",
+      "D. Kết nối tự nhiên các quan hệ sau mệnh đề SELECT, thoả mãn biểu thức logíc sau WHERE và chiếu trên các thuộc tính sau mệnh đề FROM"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 274,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi thực hiện truy vấn :",
+    "choices": [
+      "A. Thực hiện phép kết nối tự nhiên các quan hệ sau FROM",
+      "B. Thực hiện phép hợp các quan hệ sau FROM",
+      "C. Thực hiện phép chiếu trên sau mệnh đề WHERE.",
+      "D. Thực hiện phép chọn sau mệnh đề WHERE."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 275,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Phân loại theo các cột được mô tả sau GROUP BY.",
+      "B. Sắp xếp các bản ghi theo khoá được mô tả sau GROUP BY.",
+      "C. GROUP BY sẽ phân hoạch quan hệ thành nhiều nhóm tách biệt nhau.",
+      "D. GROUP BY sẽ chia dọc quan hệ thành nhiều nhóm"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 276,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi thực hiện phép chiếu :",
+    "choices": [
+      "A. Sau khi thực hiện phép chọn, phân loại.",
+      "B. Sau khi thực hiện phép chọn, các phép theo nhóm",
+      "C. Trước khi thực hiện phép chọn, các phép theo nhóm",
+      "D. Trước khi thực hiện phép chọn, phân loại."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 277,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Biến đổi một biểu thức đại số quan hệ về một biểu thức tương đương tối ưu.",
+      "B. Biến đổi các biểu thức đại số quan hệ về tương đương",
+      "C. Biến đổi một biểu thức đại số quan hệ với chi phí ít hơn rất nhiều",
+      "D. Biến đổi các biểu thức đại số quan hệ tối ưu lưu trữ"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 278,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất nhận xét khi thực hiện tối ưu hoá câu hỏi.",
+    "choices": [
+      "A. Thực hiện các phép chọn muộn hơn các phép chiếu thường thì tốt hơn.",
+      "B. Phép chiếu sớm giảm tăng số các thuộc tính.",
+      "C. Các phép chọn sớm sẽ làm tăng dữ liệu",
+      "D. Thực hiện các phép chọn càng sớm không tốt hơn"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 279,
+    "question": "Quá trình tối ưu hoá các câu hỏi truy vấn dữ liệu là quá trình:",
+    "choices": [
+      "A. Kết quả của các phép toán được biểu diễn duy nhất bằng một quan hệ.",
+      "B. Biến đổi câu hỏi sao cho chi phí thời gian và sử dụng bộ nhớ là ít nhất.",
+      "C. Chi phí thời gian thực hiện các phép toán là ít nhất.",
+      "D. Cần thiết phải biến đổi các câu hỏi hợp lý"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 280,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về an toàn CSDL :",
+    "choices": [
+      "A. Cần có cơ chế kiểm soát, quản lý cơ sở dữ liệu",
+      "B. Các biện pháp bảo vệ an toàn thông tin trên mạng",
+      "C. Cần có các biện pháp bảo vệ chống truy nhập trái phép vào cơ sở dữ liệu",
+      "D. Các chiến lược truy nhập cơ sở dữ liệu."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 281,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các nguy cơ không an toàn:",
+    "choices": [
+      "A. Nhiều người sử dụng truy nhập và khai thác trên cùng một cơ sở dữ liệu.",
+      "B. Truy xuất vào cơ sở dữ liệu bằng nhiều ngôn ngữ thao tác dữ liệu khác nhau.",
+      "C. Nhiều người trao đổi thông tin với nhau trên mạng",
+      "D. Rất nhiều loại dữ liệu được tải về lưu trữ trên các máy chủ mạng cục bộ"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 282,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi nói về các biện pháp nhận diện người sử dụng:",
+    "choices": [
+      "A. Cần cung cấp phương tiện cho người sử dụng",
+      "B. Cần xác định các thao tác người sử dụng được phép thực hiện",
+      "C. Cung cấp các phương pháp truy nhập cho người sử dụng",
+      "D. Cần xác định các thao tác cho bất kỳ người sử dụng"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 283,
+    "question": "Khảng định nào sau đây là đúng :",
+    "choices": [
+      "A. GRANT SELECT ON ACCOUNT",
+      "B. GRANT READ ON R",
+      "C. GRANT ALL ON R TO GROUP /WORLD",
+      "D. GRANT ON R TO GROUP /WORLD"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 284,
+    "question": "Khảng định nào sau đây là đúng khi nói về thu hồi các quyền truy nhập cơ dữ liệu của người sử dụng:",
+    "choices": [
+      "A. REVOKE GRANT OPTION FOR SELECT ON BRANCH FROM U1",
+      "B. REVOKE READ ON R .FROM GROUP/WORLD",
+      "C. REVOKE SELECT ON BRANCH",
+      "D. REVOKE ON BRANCH FROM U1"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 285,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Tìm kiếm và tra cứu thông tin là một trong những chức năng quan trọng và phổ biến nhất của dịch vụ cơ sở dữ liệu. Hệ quản trị cơ sở dữ liệu là....... các chiến lược truy nhập CSDL.",
+    "choices": [
+      "A. Tài nguyên thông tin",
+      "B. Hệ thống các máy chủ lưu trữ CSDL",
+      "C. Hệ thống phần mềm điều khiển.",
+      "D. Hệ điều hành mạng."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 286,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong cơ sở dữ liệu quan hệ, thực thể và mối quan hệ giữa các thực thể là hai đối tượng khác nhau về căn bản. Mối quan hệ giữa các thực thể cũng là một loại .........đặc biệt.",
+    "choices": [
+      "A. Cơ sở dữ liệu",
+      "B. Phụ thuộc hàm",
+      "C. Đối tượng dữ liệu.",
+      "D. Thực thể"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 287,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Tổ chức lưu trữ dữ liệu theo lý thuyết cơ sở dữ liệu có thể tránh được sự không nhất quán trong lưu trữ dữ liệu và bảo đảm được ..........của dữ liệu.",
+    "choices": [
+      "A. Tính toàn vẹn.",
+      "B. Tính độc lập dữ liệu",
+      "C. An toàn",
+      "D. Quyền truy nhập cơ sở dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 288,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Người quản trị CSDL bảo đảm việc truy nhập CSDL. Kiểm tra, kiểm soát các quyền truy nhập của ........Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào...",
+    "choices": [
+      "A. Hệ quản trị cơ sở dữ liệu.",
+      "B. Người quản trị cơ sở dữ liệu.",
+      "C. Hệ ứng dụng",
+      "D. Người sử dụng."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 289,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Mô hình kiến trúc CSDL có 3 mức, thể hiện ............",
+    "choices": [
+      "A. Tính nhất quán dữ liệu",
+      "B. Tính đơn giản thao tác dữ liệu",
+      "C. Tính toàn vẹn dữ liệu",
+      "D. Tính toàn độc lập dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 290,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Có rất nhiều cách nhìn dữ liệu ở mô hình ngoài, nhưng ..... biểu diễn toàn bộ thông tin trong CSDL là duy nhất.",
+    "choices": [
+      "A. Mô hình quan niệm.",
+      "B. Mô hình khái niệm.",
+      "C. Mô hình trong.",
+      "D. Mô hình ngoài."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 291,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong cơ sở dữ liệu, dữ liệu chỉ được biểu diễn, mô tả ......... Cấu trúc lưu trữ dữ liệu và các hệ chương trình ứng dụng trên các hệ CSDL độc lập với nhau.",
+    "choices": [
+      "A. Rõ ràng, logic.",
+      "B. Một cách duy nhất.",
+      "C. Chặt chẽ, logic.",
+      "D. Bằng nhiều cách khác nhau"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 292,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Tính độc lập dữ liệu là \"...... cuả các hệ ứng dụng đối với sự thay đổi trong cấu trúc lưu trữ và chiến lược truy nhập dữ liệu\".",
+    "choices": [
+      "A. Nội dung thông tin.",
+      "B. Phương thức truy nhập.",
+      "C. Tính tất biến",
+      "D. Các chiến lược truy nhập"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 293,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Có rất nhiều loại ràng buộc......",
+    "choices": [
+      "A. Ràng buộc logic.",
+      "B. Ràng buộc giải tích và phụ thuộc hàm.",
+      "C. Phụ thuộc hàm",
+      "D. Ràng buộc về kiểu, ràng buộc giải tích và phụ thuộc hàm."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 294,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Một mô hình dữ liệu là một hệ thống hình thức toán học, bao gồm các hệ thống các ký hiệu và tập hợp các ............. trên cơ sở dữ liệu.",
+    "choices": [
+      "A. Các phép lưu trữ dữ liệu.",
+      "B. Các phép tìm kiếm, tra cứu thông tin.",
+      "C. Phép toán thao tác.",
+      "D. Các phép toán đại số quan hệ."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 295,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Tổ chức dữ liệu theo mô hình nào là tốt nhất phụ thuộc vào yêu cầu......... thông tin của tổ chức quản lý nó.",
+    "choices": [
+      "A. Tìm kiếm",
+      "B. Truy vấn",
+      "C. Cập nhật, bổ sung, sửa đổi.",
+      "D. Truy xuất và khai thác."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 296,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Trong mô hình CSDL phân cấp, dữ liệu được biểu diễn bằng cấu trúc cây. Một CSDL phân cấp là tập các cây. Trong mỗi một cây ............. và dưới nó là tập các bản ghi phụ thuộc.",
+    "choices": [
+      "A. Chỉ chứa một và chỉ một bản ghi gốc.",
+      "B. Một bản ghi gốc và nhiều bản ghi phụ thuộc.",
+      "C. Một bản ghi gốc và một bản ghi phụ thuộc.",
+      "D. Nhiều bản ghi gốc."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 297,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Trong cấu trúc hình cây, khi sửa đổi một số thông tin trong các bản ghi phụ thuộc thì phải duyệt toàn bộ mô hình, bằng cách dò tìm trong từng xuất hiện. Dẫn đến sự xuất hiện ...........",
+    "choices": [
+      "A. Toàn ven dữ liệu trong lưu trữ.",
+      "B. An toàn ven dữ liệu.",
+      "C. Không nhất quán dữ liệu trong lưu trữ.",
+      "D. Tổn thất thông tin"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 298,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Mô hình dữ liệu mạng là mô hình thực thể quan hệ, trong đó các mối liên kết hạn chế......... Không chứa liên kết nhiêu - nhiều.",
+    "choices": [
+      "A. Tính đối xứng",
+      "B. Trong kiểu một kiểu bản ghi liên kết",
+      "C. Trong kiểu một - một và nhiều - một.",
+      "D. Trong kiểu một bản ghi thực thể"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 299,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Trong mô hình CSDL mạng, dữ liệu được biểu diễn trong .......bằng các mối nối liên kết (link) tạo thành một đồ thị có hướng.",
+    "choices": [
+      "A. Trong kiểu một - một và nhiều - một.",
+      "B. Các bản ghi liên kết với nhau",
+      "C. Các bản ghi thực thể",
+      "D. Trong kiểu một bản ghi thực thể"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 300,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: CSDL mạng biểu diễn dữ liệu theo cấu trúc chặt chẽ. Các xuất hiện kiểu bản ghi được........",
+    "choices": [
+      "A. Kết nối với nhau bằng các xuất hiện kiểu bản ghi liên kết.",
+      "B. Lưu trữ nhất quán và toàn vẹn.",
+      "C. Mô tả chặt chẽ.",
+      "D. Biểu diễn có cấu trúc đối xứng."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 301,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Cấu trúc dữ liệu trong mô hình CSDL mạng quá phức tạp vì .......... Vì vậy việc thiết kế và cài đặt cơ sở dữ liệu mạng thường rất khó khăn.",
+    "choices": [
+      "A. Mô hình dữ liệu mạng chứa nhiều thực thể",
+      "B. Mô hình dữ liệu mạng chứa một thực thể.",
+      "C. Quá nhiều liên kết giữa các xuất hiện dữ liệu bằng các xuất hiện liên kết.",
+      "D. Mối liên kết giữa các thực thể biểu diễn không tường minh."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 302,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Quan hệ là.......... của một hoặc hữu hạn các miền. Các phần tử của quan hệ là các bộ bộ (a1,a2,a3....,an)n giá trị thành phần, hay được gọi n bộ.",
+    "choices": [
+      "A. Kết quả của phép hợp.",
+      "B. Kết quả của phép chiếu và chọn.",
+      "C. Kết quả của phép chiếu",
+      "D. Một tập con của tích Đề các"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 303,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Cơ sở dữ liệu quan hệ được biểu diễn........., các cột là thuôc tính và các hàng là tập n giá trị của thực thể, đối tượng.",
+    "choices": [
+      "A. Dưới dạng các File dữ liệu",
+      "B. Cấu trúc hình cây.",
+      "C. Dưới dạng các bảng",
+      "D. Cấu trúc hình mạng"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 304,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Ngôn ngữ dữ liệu quan hệ là.......... thao tác trên các dữ liệu dưới dạng quan hệ. Dữ liệu được biểu diễn một cách duy nhất.",
+    "choices": [
+      "A. Ngôn ngữ biểu diễn dữ liệu.",
+      "B. Tập các phép toán số học",
+      "C. Tập các phép toán có các cấu trúc quan hệ.",
+      "D. Ngôn ngữ mô tả các thực thể và mối liên kết các thực thể."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 305,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Trong CSDL quan hệ, các phép toán lưu trữ là các phép chèn thêm, sửa đổi và loại bỏ. Khi thao tác .......và đảm bảo tính nhất quán dữ liệu.và tính toàn vẹn dữ liệu.",
+    "choices": [
+      "A. Không dị thường thông tin",
+      "B. Tổn thất thông tin",
+      "C. Bảo mật thông tin",
+      "D. Độc lập dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 306,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Cấu trúc dữ liệu trong mô hình CSDL quan hệ đơn giản, thông tin về các thực thể và ràng buộc của các thực thể ............... trong các bảng, trong suốt với người sử dụng.",
+    "choices": [
+      "A. Được biểu diễn duy nhất",
+      "B. Được biểu diễn bằng nhiều cách khác nhau.",
+      "C. Cấu trúc đơn giản",
+      "D. Mô tả logic."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 307,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Tính độc lập dữ liệu trong các hệ cơ sở dữ liệu quan hệ cao, thể hiện cấu trúc lưu trữ và chiến lược truy nhập có thể .........nhưng không thay đổi sơ đồ quan niệm và ngược lại.",
+    "choices": [
+      "A. Không thay đổi",
+      "B. Thay đổi",
+      "C. Phụ thuộc lẫn nhau",
+      "D. Độc lập lẫn nhau"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 308,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Trong CSDL quan hệ, các câu hỏi đối xứng, kết quả cũng đối xứng và biểu diễn bằng ..........",
+    "choices": [
+      "A. Tệp dữ liệu",
+      "B. Cây dữ liệu.",
+      "C. Đồ thị vô hướng",
+      "D. Quan hệ."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 309,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Nói rằng A --> B được suy dẫn từ F, nếu ..........",
+    "choices": [
+      "A. Hai bộ bất kỳ trùng nhau trên A thì khác nhau trên B.",
+      "B. Hai bộ bất kỳ thoả trên trên A thì thoả trên B.",
+      "C. Hai bộ bất kỳ khác nhau trên A thì cũng khác nhau trên B.",
+      "D. Áp dụng liên tiếp các hệ tiên đề Armstrong"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 310,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Bao đóng tập các phụ thuộc hàm gồm các phụ thuộc.......",
+    "choices": [
+      "A. Bắc cầu.được suy dẫn logic",
+      "B. Được suy dẫn bằng định nghĩa.",
+      "C. Được suy dẫn bằng cách áp dụng liên tiếp các hệ tiên đề Armstrong.",
+      "D. Đầy đủ.được suy dẫn logic"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 311,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: X --> Y (Y Thuộc F) là phụ thuộc hàm đầy đủ, khi và chỉ khi ..........",
+    "choices": [
+      "A. Mọi con thực sự của X xác định Y",
+      "B. Tập con thực sự của X xác định Y",
+      "C. Tồn tại tập con của X xác định Y",
+      "D. X không chứa thuộc tính dư thừa"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 312,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Trong một lược đồ quan hệ luôn tồn tại một hoặc một tập các thuộc tính có khả năng ........",
+    "choices": [
+      "A. Biểu diễn các thuộc tính còn lại.",
+      "B. Biểu diễn duy nhất các thuộc tính còn lại.",
+      "C. Biểu diễn duy nhất các phụ thuộc hàm",
+      "D. Biểu diễn các phụ thuộc hàm"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 313,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Nếu 2 bộ bất kỳ trùng nhau rên các thành phần của khóa thì .........",
+    "choices": [
+      "A. Cũng trùng nhau trên các thành phần của tất cả các bộ",
+      "B. Cũng trùng nhau trên các thành phần không khóa.",
+      "C. Khác nhau trên các thành phần tất cả các bộ.",
+      "D. Khác nhau trên các thành phần không khóa."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 314,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Giá trị các thành phần của khoá .........",
+    "choices": [
+      "A. Có thể nhận giá trị null hay các giá trị không xác định.",
+      "B. Không thể nhận giá trị null hay các giá trị không xác định.",
+      "C. Có thể nhận giá trị các giá trị không xác định.",
+      "D. Không thể nhận giá trị null và chấp nhận các giá trị không xác định."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 315,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khảng định sau: Từ một siêu khóa cho trước, có thể..........",
+    "choices": [
+      "A. Xác định một khóa trong nó.",
+      "B. Xác định một siêu khóa trong nó.",
+      "C. Xác định một nhóm các thuộc tính",
+      "D. Xác định một thuộc tính"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 316,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau:Trong quá trình chuẩn hoá dữ liệu, cần thiết phải thực hiện các phép tách quan hệ về các quan hệ có dạng chuẩn cao .......",
+    "choices": [
+      "A. Đảm bảo tính toàn vẹn dữ liệu",
+      "B. Và biểu diễn thông tin là duy nhất.",
+      "C. Và không tổn thất thông tin.",
+      "D. Không làm mất đi tính độc lập dữ liệu"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 317,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Phép tách không tổn thất thông tin theo nghĩa..........",
+    "choices": [
+      "A. Thông tin của quan hệ gốc được khôi phục từ các quan hệ chiếu.",
+      "B. Phép tách bảo toàn phụ thuộc trong các quan hệ chiếu.",
+      "C. Phép tách bảo đảm tính độc lập dữ liệu",
+      "D. Thông tin của quan hệ gốc không bị mâu thuẫn, thừa hoặc thiếu."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 318,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Chuẩn hoá dữ liệu là quá trình biến đổi dữ liệu thành nhiều tập nhỏ hơn sao cho.........",
+    "choices": [
+      "A. Không rõ ràng trong suy diễn, bảo đảm tính toàn ven dữ liệu",
+      "B. Tối thiểu việc lặp lại, tránh sự không rõ ràng, nhập nhằng trong suy diễn.",
+      "C. Các quan hệ thành viên không tổn thất thông tin, đảm bảo tính độc lập dữ liệu",
+      "D. Các quan hệ thành viên có cấu trúc đơn giản, không chứa dị thường thông tin."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 319,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Một mô hình CSDL được coi là mô hình chuẩn hoá tốt, nếu........",
+    "choices": [
+      "A. Các thuộc tính không khoá phụ thuộc hàm vào khoá.",
+      "B. Các thuộc tính không khoá phụ thuộc hàm đầy đủ vào khoá",
+      "C. Các thuộc tính khoá xác định duy nhất",
+      "D. Các thuộc tính không khoá không phụ thuộc bắc cầu vào khoá."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 320,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong các quan hệ dạng chuẩn 1NF.....",
+    "choices": [
+      "A. Xuất hiện các thuộc tính phụ thuộc đầy đủ vào khoá.",
+      "B. Khi thao tác các phép lưu trữ xuất hiện dị thường thông tin.",
+      "C. Không xuất hiện dị thường thông tin",
+      "D. Không xuất hiện các phụ thuộc bắc cầu vào khoá."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 321,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Nếu quan hệ là dạng chuẩn 1NF và không tồn tại các phụ thuộc hàm sao cho thuộc tính vế trái là một tập con thực sự của khóa và thuộc tính vế phải ..........",
+    "choices": [
+      "A. Là thuộc tính không khóa của quan hệ.",
+      "B. Phụ thuộc hàm vào thuộc tính không khoá",
+      "C. Là thuộc tính dư thừa vế trái",
+      "D. Phụ thuộc hàm vào thuộc tính vế trái"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 322,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong các quan hệ dạng chuẩn 2NF, không thể chèn thêm thông tin ......",
+    "choices": [
+      "A. Khi chưa xác định giá trị của các thuộc tính khoá",
+      "B. Khi giá trị của các thuộc tính chưa được xác định",
+      "C. Khi giá trị của một thuộc tính chưa được xác định",
+      "D. Khi còn dị thường thông tin"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 323,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong các quan hệ dạng chuẩn 2NF........",
+    "choices": [
+      "A. Các thuộc tính không khoá phụ thuộc không đầy đủ vào khoá.",
+      "B. Các thuộc tính không khoá phụ thuộc vào khoá.",
+      "C. Cấm tất cả các thuộc tính không khoá phụ thuộc vào tập con thực sự của khoá.",
+      "D. Không xuất hiện các phụ thuộc bắc cầu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 324,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Biến đổi một quan hệ chưa chuẩn hoá về nhóm các quan hệ 3NF .........",
+    "choices": [
+      "A. Không tổn thất thông tin.",
+      "B. Tổn thất thông tin.",
+      "C. Bảo toàn phụ thuộc",
+      "D. Bảo đảm tính độc lập dữ liệu."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 325,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Từ một quan hệ 1NF có thể chuyển đổi về nhóm các quan hệ 3NF bằng cách.........",
+    "choices": [
+      "A. Loại bỏ các phụ thuộc không đầy đủ vào khoá",
+      "B. Loại bỏ các phụ thuộc không đầy đủ vào khoá và các phụ thuộc bắc cầu",
+      "C. Loại bỏ các phụ thuộc không đầy đủ",
+      "D. Loại bỏ các phụ thuộc đầy đủ vào khoá và các phụ thuộc bắc cầu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 326,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Kết quả của phép chọn SELECT là một quan hệ mới, các bộ.....",
+    "choices": [
+      "A. Là một File dữ liệu.",
+      "B. Là tập các bản ghi",
+      "C. Phụ thuộc hàm với các thuộc tính.",
+      "D. Thoả mãn một tân từ xác định."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 327,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Toán hạng trong các phép đại số quan hệ là các ......",
+    "choices": [
+      "A. Các biểu thức toán học",
+      "B. Quan hệ hoặc các biểu thức quan hệ",
+      "C. Quan hệ hằng hoặc các biến biểu thị cho các quan hệ có bậc cố định.",
+      "D. Các biến biểu thị cho các quan hệ có bậc cố định."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 328,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Hợp các quan hệ khả hợp trên cùng tập các thuộc tính Ω là một quan hệ trên Ω, các bộ là .................... bỏ đi các bộ trùng nhau, chỉ giữ lại những bộ đại diện.",
+    "choices": [
+      "A. Các bộ của các quan hệ nguồn thoả điều kiện hợp",
+      "B. Các bộ của các quan hệ nguồn",
+      "C. Các bộ của các quan hệ nguồn được tách không tổn thất thông tin.",
+      "D. Các bộ có mặt trong các quan hệ nguồn"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 329,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Giao của các quan trên Ω cũng là một quan hệ trên Ω , các bộ của nó là các bộ.......",
+    "choices": [
+      "A. Có mặt trong các quan hệ nguồn",
+      "B. Của các quan hệ nguồn thoả tân từ xác định",
+      "C. Của các quan hệ nguồn",
+      "D. Các quan hệ nguồn được tách không tổn thất thông tin."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 330,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Tích Đề các các quan hệ là một quan hệ, với tập các thuộc tính là........, các bộ bao gồm các bộ quan hệ nguồn nối tiếp theo thứ tự phép nhân.",
+    "choices": [
+      "A. Hợp tập các thuộc tính của các quan hệ nguồn",
+      "B. Thuộc tính có mặt trong quan hệ đầu tiên phép nhân.",
+      "C. Giao tập các thuộc tính của các quan hệ nguồn",
+      "D. Tập các thuộc tính của các quan hệ tách"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 331,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Phép chiếu quan hệ, tức là từ quan hệ nguồn .........",
+    "choices": [
+      "A. Bỏ đi một số bộ thoả mãn biểu thức logic",
+      "B. Bỏ đi một số bộ thoả mãn biểu thức logic",
+      "C. Bỏ đi một số bộ",
+      "D. Bỏ đi một số thuộc tính"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 332,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Ngôn ngữ SQL có thể sử dụng theo các phương thức tương tác và........",
+    "choices": [
+      "A. Nhúng vào một ngôn ngữ chủ",
+      "B. Nhúng vào một cơ sở dữ liệu khác",
+      "C. Nhúng vào hệ điều hành.",
+      "D. Nhúng vào một hệ quản trị cơ sở dữ liệu khác"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 333,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Thực hiện phép chọn trên quan hệ sau mệnh đề HAVING ........",
+    "choices": [
+      "A. Trước khi sau mệnh đề GROUP BY thực hiện gộp nhóm.",
+      "B. Nếu GROUP BY đã xuất hiện.",
+      "C. Theo các yêu cầu của mệnh đề GROUP BY",
+      "D. Thoả mãn biểu thức logic"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 334,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trước khi thực hiện các câu truy vấn, cần thiết phải .........",
+    "choices": [
+      "A. Truy xuất dữ liệu tại các thiết bị đầu cuối.",
+      "B. Tối ưu hoá câu hỏi, bảo đảm tính độc lập của dữ liệu",
+      "C. Thực hiện các phép chiếu và chọn.",
+      "D. Biển đổi câu hỏi dưới dạng biểu thức quan hệ"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 335,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Biến đổi một biểu thức đại số quan hệ về một biểu thức tương đương, cho cùng một kết quả .......",
+    "choices": [
+      "A. Bảo toàn dữ liệu",
+      "B. Bảo đảm độc lập dữ liệu",
+      "C. Không tổn thất thông tin",
+      "D. Với chi phí thời gian thực hiện và sử dụng bộ nhớ ít hơn rất nhiều"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 336,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Có nhiều kỹ thuật tối ưu hoá các câu hỏi, trong đó có kỹ thuật phân rã câu hỏi dựa trên..........",
+    "choices": [
+      "A. Suy dẫn logic từ các tiên đề Armstrong",
+      "B. Ngôn ngữ của đại số quan hệ.",
+      "C. Biểu thức đại số quan hệ.",
+      "D. Ngôn ngữ dữ liệu."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 337,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Biến đổi một biểu thức đại số quan hệ về một biểu thức tương đương với chi phí thời gian thực hiện và sử dụng bộ nhớ......",
+    "choices": [
+      "A. Không phụ thuộc các phép toán",
+      "B. Tối ưu",
+      "C. Phụ thuộc và các phép toán thực hiện",
+      "D. Hạn chế"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 338,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Đánh giá tối ưu hóa biểu thức quan hệ dựa vào cây kết nối trái theo chiều sâu, có.......",
+    "choices": [
+      "A. Chi phí thời gian nhỏ.",
+      "B. Chi phí tính theo chiều sâu của cây..",
+      "C. Chí phí bộ nhớ nhỏ",
+      "D. Chi phí bằng chi phí biểu thức ban đầu."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 339,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Trong biểu thức quan hệ các toán hạng là .........",
+    "choices": [
+      "A. Các phần tử",
+      "B. Các phụ thuộc hàm",
+      "C. Các thuộc tính.",
+      "D. Các quan hệ trong một CSDL"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 340,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Biểu thức E1 tương đương với nhau E2 , nếu chúng biểu diễn cùng một ánh xạ, nghĩa là .......... giống nhau trong biểu thức, thì kết quả cũng giống nhau.",
+    "choices": [
+      "A. Các quan hệ.",
+      "B. Các bản ghi.",
+      "C. Các thuộc tính.",
+      "D. Các toán hạng"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 341,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Hệ quản trị cơ sở dữ liệu DBMS không cho phép người sử dụng ........",
+    "choices": [
+      "A. Truy nhập tìm kiếm hay truy vấn thông tin",
+      "B. Thực hiện quyền truy nhập nếu không..được phép của người quản trị CSDL",
+      "C. Thực hiện quyền truy nhập CSDL",
+      "D. Vi phạm tính độc lập và tính toàn vẹn dữ liệu"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 342,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Hình thức thông dụng nhất để nhận biết người sử dụng là mật khẩu......",
+    "choices": [
+      "A. Đảm bảo toàn vẹn dữ liệu",
+      "B. Và các quy tắc bảo vệ cơ sở dữ liệu",
+      "C. Chỉ có hệ thống và người sử dụng biết.",
+      "D. Mới được phép truy nhập CSDL"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 343,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Một người sử dụng được .......... và các quyền này có thể tham chiếu đến quyền truy nhập của người sử dụng khác.",
+    "choices": [
+      "A. Cấp một vài quyền truy nhập cơ sở dữ liệu",
+      "B. Cấp quyền đọc và ghi dữ liệu",
+      "C. Cấp quyền tìm kiếm dữ liệu",
+      "D. Cấp tất cả các quyền truy nhập cơ sở dữ liệu"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 344,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Cấp quyền READ người sử dụng chỉ được quyền.......",
+    "choices": [
+      "A. Chỉ được đọc và ghi",
+      "B. Sửa đổi, bổ sung và cập nhật dữ liệu.",
+      "C. Sử dụng trong các câu vấn tin và cập nhật, lưu trữ dữ liệu.",
+      "D. Vấn tin, không được phép sửa đổi, bổ sung."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 345,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: \"An toàn\" dữ liệu nghĩa là cơ sở dữ liệu cần phải ......",
+    "choices": [
+      "A. Bảo đảm tính độc lập dữ liệu",
+      "B. Bảo vệ, bảo đảm sự toàn ven dữ liệu",
+      "C. Bảo toàn dữ liệu khi thao tác trên nó.",
+      "D. Bảo vệ chống truy nhập trái phép"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 346,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Toàn vẹn dữ liệu nghĩa là ......",
+    "choices": [
+      "A. Dữ liệu trong CSDL luôn luôn chính xác tại mọi thời điểm",
+      "B. Có thể thực hiện các chiến lược truy nhập dữ liệu.",
+      "C. Bảo đảm tính độc lập dữ liệu tại mọi thời điểm",
+      "D. Có thể tìm kiếm tại mọi thời điểm"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 347,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Mô hình kiến trúc CSDL có 3 mức, thể hiện ............",
+    "choices": [
+      "A. Tính nhất quán dữ liệu",
+      "B. Tính đơn giản thao tác dữ liệu",
+      "C. Tính toàn vẹn dữ liệu",
+      "D. Tính toàn độc lập dữ liệu"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 348,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Người sử dụng được quyền ghi và đọc bao gồm các quyền như chèn, xóa và sửa đổi.......",
+    "choices": [
+      "A. GRANT READ ON R TO GROUP /WORLD",
+      "B. GRANT ALL ON R TO GROUP /WORLD",
+      "C. GRANT SELECT ON R TO GROUP /WORLD",
+      "D. GRANT READ/WRITE ON R TO GROUP /WORLD"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 349,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Các quyền tham chiếu REFERENCE được cấp cho người sử dụng U1 trên thuộc tính branch-name đến quan hệ BRANCH............",
+    "choices": [
+      "A. GRANT REFERENCE (branch-name) TO U",
+      "B. GRANT REFERENCE ON BRANCH TO U",
+      "C. GRANT REFERENCE (branch-name) ON BRANCH TO U",
+      "D. GRANT REFERENCE (branch-name) ON BRANCH"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 350,
+    "question": "Hãy chọn từ/cụm từ tương ứng để hoàn thiện khẳng định sau: Thu hồi đặc quyền đã cấp cho U1, U2 và U3......",
+    "choices": [
+      "A. REVOKE SELECT ON BRANCH FROM U1, U2, U3",
+      "B. GRANT ALL ON ACCOUNT TO U1, U2, U3.",
+      "C. REVOKE REFERENCES (branch-name) ON BRANCH FROM U1",
+      "D. GRANT SELECT ON ACCOUNT TO U1, U2, U3."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 351,
+    "question": "Cho Ω = {A, B, C} và F = {A --> C, A --> B}.",
+    "choices": [
+      "A. Không tồn tại các thuộc tính không khoá.",
+      "B. {A, C}, {B, E} là khoá của quan hệ trên.",
+      "C. Quan hệ trên có dạng chuẩn không 2NF.",
+      "D. Tồn tại các thuộc tính không khoá."
+    ],
+    "correct_answer": -1
+  },
+  {
+    "id": 352,
+    "question": "Trong quan hệ 2NF, cấm tất cả các phụ thuộc không đầy đủ :",
+    "choices": [
+      "A. Trong quan hệ 2NF, cấm tất cả các phụ thuộc không đầy đủ vào khoá.",
+      "B. Trong quan hệ 2NF, cấm tất cả các phụ thuộc đầy đủ vào khoá.",
+      "C. Trong quan hệ 2NF, các thuộc tính khoá phụ thuộc vào các tập con của khoá.",
+      "D. Trong quan hệ 2NF, các thuộc tính không khoá phụ thuộc vào khoá."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 353,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất:",
+    "choices": [
+      "A. Trong quan hệ 3NF, các thuộc tính không khoá bằng rỗng.",
+      "B. Trong quan hệ 3NF, cấm các thuộc tính không khoá phụ thuộc vào thuộc tính có bao đóng khác Ω.",
+      "C. Trong quan hệ 3NF, cấm thuộc tính không khoá phụ thuộc vào các thuộc tính có bao đóng bằng Ω.",
+      "D. Trong quan hệ 3NF, các thuộc tính không khoá phụ thuộc hàm vào thuộc tính có bao đóng khác Ω."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 354,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất khi khảo sát quan hệ gồm các thuộc tính: Mã cáp, tên cáp, giá, mã nước sản xuất,nước sản xuất:",
+    "choices": [
+      "A. Là quan hệ 2NF và không chứa các phụ thuộc bắc cầu",
+      "B. Là quan hệ 3NF, không phải là quan hệ 2NF",
+      "C. Là quan hệ 3NF",
+      "D. Tồn tại phụ thuộc mà vế phải và trái không phải là thuộc tính khoá."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 355,
+    "question": "Chọn một khẳng định nào sau đây là đúng nhất :",
+    "choices": [
+      "A. Tách một quan hệ không 3NF thành nhiều quan hệ 3NF, tổn thất thông tin.",
+      "B. Từ một quan hệ 2NF tách thành nhiều quan hệ 3NF",
+      "C. Tách một quan hệ thành nhiều quan hệ 3NF, không mất thông tin.",
+      "D. Từ một quan hệ 2NF tách thành nhiều quan hệ 3NF, không làm mất thông tin."
+    ],
+    "correct_answer": 3
+  },
+  {
+    "id": 356,
+    "question": "Xét quan hệ Ω = {A, B, C, D, E, G, H} và F = {C --> AB, D --> E, B --> G}.",
+    "choices": [
+      "A. Khoá quan hệ là {B, C, A}.",
+      "B. Quan hệ có dạng chuẩn 3NF",
+      "C. Khoá quan hệ là {H, C, D}.",
+      "D. Tất cả đều sai"
+    ],
+    "correct_answer": 2
+  }
+]

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Tập Trắc Nghiệm</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#10B981',
+                        surface: 'rgba(255, 255, 255, 0.85)',
+                        surfaceDark: 'rgba(30, 41, 59, 0.85)'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col transition-colors duration-300" id="body">
+    
+    <!-- Header -->
+    <header class="glass sticky top-0 z-50 shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+                <i class="fa-solid fa-graduation-cap text-primary mr-2"></i> QuizMaster
+            </h1>
+            <div class="flex items-center gap-4">
+                <span id="progress-text" class="text-sm font-medium text-slate-500 hidden">0/100</span>
+                <button id="theme-toggle" class="p-2 rounded-full hover:bg-slate-200 transition-colors">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col items-center justify-center p-4">
+        <div class="w-full max-w-5xl">
+            
+            <!-- Loading State -->
+            <div id="loading" class="text-center py-20 flex flex-col items-center">
+                <i class="fa-solid fa-spinner fa-spin text-4xl text-primary mb-4"></i>
+                <p class="text-slate-500 font-medium animate-pulse">Đang tải dữ liệu bộ câu hỏi...</p>
+            </div>
+
+            <!-- Dashboard / Selection Screen -->
+            <div id="dashboard" class="hidden animate-fade-in">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl tracking-tight font-extrabold text-slate-900 sm:text-4xl">Chọn Bộ Đề Ôn Tập</h2>
+                    <p class="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">Bộ câu hỏi đã được chia thành các phần nhỏ để giúp bạn ôn tập dễ dàng hơn.</p>
+                </div>
+                <!-- Test Cards Grid -->
+                <div id="tests-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Cards will be injected by JS -->
+                </div>
+            </div>
+
+            <!-- Quiz Screen -->
+            <div id="quiz-screen" class="hidden">
+                <div class="flex flex-col lg:flex-row gap-6">
+                    
+                    <!-- Sidebar: Navigation Grid -->
+                    <div class="w-full lg:w-1/4 glass rounded-2xl p-4 shadow-lg lg:sticky lg:top-24 h-max">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-lg">Danh sách câu</h3>
+                            <button id="btn-back-home" class="text-sm text-slate-500 hover:text-primary transition-colors">
+                                <i class="fa-solid fa-arrow-left"></i> Trở về
+                            </button>
+                        </div>
+                        <div id="nav-grid" class="grid grid-cols-5 gap-2 max-h-[40vh] lg:max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
+                           <!-- Grid buttons injected by JS -->
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-slate-200/50">
+                            <button id="btn-submit" class="w-full py-3 bg-gradient-to-r from-primary to-purple-600 hover:from-primary hover:to-primary text-white rounded-xl font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all">
+                                Nộp Bài <i class="fa-solid fa-paper-plane ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Main Quiz Area -->
+                    <div class="w-full lg:w-3/4">
+                        <div class="glass rounded-2xl shadow-xl overflow-hidden min-h-[400px] flex flex-col relative">
+                            
+                            <!-- Question Header -->
+                            <div class="bg-indigo-50/50 dark:bg-slate-800/50 border-b border-indigo-100 dark:border-slate-700/50 px-6 py-4 flex justify-between items-center">
+                                <span id="question-number" class="text-primary font-bold text-lg">Câu 1</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-slate-600 shadow-sm border border-slate-100">Chọn 1</span>
+                            </div>
+                            
+                            <!-- Question Content -->
+                            <div class="p-6 flex-grow flex flex-col justify-center animate-slide-up" id="question-container">
+                                <h2 id="question-text" class="text-xl md:text-2xl font-semibold text-slate-800 mb-8 leading-relaxed">
+                                    Nội dung câu hỏi...
+                                </h2>
+                                
+                                <!-- Choices -->
+                                <div id="choices-container" class="space-y-3">
+                                    <!-- Choices injected by JS -->
+                                </div>
+                            </div>
+                            
+                            <!-- Grading result feedback section (hidden during quiz) -->
+                            <div id="feedback-container" class="p-4 mx-6 mb-6 rounded-xl hidden border">
+                            </div>
+
+                            <!-- Footer Navigation -->
+                            <div class="bg-slate-50/80 px-6 py-4 border-t border-slate-200/50 flex justify-between items-center">
+                                <button id="btn-prev" class="px-5 py-2.5 rounded-xl font-medium text-slate-600 hover:bg-slate-200 transition-colors flex items-center gap-2">
+                                    <i class="fa-solid fa-chevron-left text-sm"></i> Trước
+                                </button>
+                                <button id="btn-next" class="px-5 py-2.5 bg-primary text-white rounded-xl font-medium hover:bg-indigo-700 shadow-md hover:shadow-lg transition-all flex items-center gap-2">
+                                    Tiếp <i class="fa-solid fa-chevron-right text-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Result Screen -->
+            <div id="result-screen" class="hidden animate-scale-up">
+                <div class="glass rounded-3xl p-8 max-w-2xl mx-auto shadow-2xl text-center relative overflow-hidden">
+                    <!-- Confetti background will go here -->
+                    <div class="absolute inset-0 z-0 pointer-events-none" id="confetti-container"></div>
+                    
+                    <div class="relative z-10">
+                        <div class="inline-flex items-center justify-center w-24 h-24 rounded-full bg-indigo-100 text-primary mb-6 text-4xl shadow-inner">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <h2 class="text-3xl font-extrabold text-slate-900 mb-2">Hoàn Thành Bài Thi!</h2>
+                        <p class="text-lg text-slate-500 mb-8" id="result-subtitle">Bạn vừa hoàn thành Test 1.</p>
+                        
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
+                                <div class="text-sm font-medium text-slate-500 uppercase tracking-wider mb-1">Điểm số</div>
+                                <div class="text-4xl font-bold text-primary" id="score-percent">80%</div>
+                            </div>
+                            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
+                                <div class="text-sm font-medium text-slate-500 uppercase tracking-wider mb-1">Đúng / Sai</div>
+                                <div class="text-4xl font-bold flex justify-center items-baseline gap-1">
+                                    <span class="text-secondary" id="score-correct">80</span>
+                                    <span class="text-2xl text-slate-300">/</span>
+                                    <span class="text-2xl text-slate-700" id="score-total">100</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <button id="btn-review" class="px-6 py-3 bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl hover:bg-slate-50 transition-colors shadow-sm focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                                <i class="fa-solid fa-eye mr-2"></i> Xem lại chi tiết
+                            </button>
+                            <button id="btn-home-from-result" class="px-6 py-3 bg-primary text-white font-semibold rounded-xl hover:bg-indigo-700 transition-all shadow-md focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                                <i class="fa-solid fa-house mr-2"></i> Về trang chủ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-slate-500 text-sm mt-auto">
+        <p>Built for learning & success.</p>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
